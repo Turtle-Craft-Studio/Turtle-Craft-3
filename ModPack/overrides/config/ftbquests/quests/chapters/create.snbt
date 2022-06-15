@@ -1,0 +1,1181 @@
+{
+	id: "0C3D8D1B881CE8FE"
+	group: ""
+	order_index: 4
+	filename: "create"
+	title: "Fancy Machines"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Time to Create!"
+			x: 0.0d
+			y: 0.0d
+			id: "731CBA7BDCF3F651"
+			tasks: [{
+				id: "75017AB5AD815BC4"
+				type: "advancement"
+				advancement: "create:andesite_alloy"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2BB83344C2BABA4B"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Water make wheel go brrrrr"
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["731CBA7BDCF3F651"]
+			id: "5BCDF3F4534F1A74"
+			tasks: [{
+				id: "2E979312E4DFD2D9"
+				type: "advancement"
+				advancement: "create:water_wheel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "344833126F1738A3"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["731CBA7BDCF3F651"]
+			id: "51552267D4B40E53"
+			tasks: [{
+				id: "6CE27289F42E0B67"
+				type: "advancement"
+				advancement: "create:windmill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "30A86814F88CBE06"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Things are speeding up!"
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"5BCDF3F4534F1A74"
+				"51552267D4B40E53"
+				"4B2C1A2B8E5FCF7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EF1208E45AE8C6C"
+			tasks: [{
+				id: "67E4FD49E95A7C34"
+				type: "advancement"
+				advancement: "create:shifting_gears"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "52A0E292E8C3C0E3"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Fancy box!"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["2EF1208E45AE8C6C"]
+			id: "116EFB9B2F4C4712"
+			tasks: [{
+				id: "13439E6754A09519"
+				type: "advancement"
+				advancement: "create:andesite_casing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5A12C2160EC19AC2"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Bonk"
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "29D467565FF7C0EE"
+			tasks: [{
+				id: "392508548EB32A6C"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "22D00D03FC6204C5"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "517D320DE995781C"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+			]
+		}
+		{
+			title: "This things blows"
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "2C105DD553EBE8DD"
+			tasks: [{
+				id: "26BD2712F0E1F3F0"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "2BAF88AA415116B8"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "1D1203AC27B2A2FE"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			title: "I have mixed feelings about this one..."
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "0FD556D77F70D7F5"
+			tasks: [{
+				id: "783F53D7698D6001"
+				type: "advancement"
+				advancement: "create:mixer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "20612EC5DA694772"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["7BD70AD8B6928E59"]
+			hide: true
+			id: "1139932208DC5F42"
+			tasks: [{
+				id: "7DF283ED0E210D74"
+				type: "advancement"
+				advancement: "create:copper_casing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0602B64967E205AF"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Harness the flames!"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["0FD556D77F70D7F5"]
+			id: "2675D666ABFB390A"
+			tasks: [{
+				id: "38F7781E5794C71A"
+				type: "advancement"
+				advancement: "create:blaze_burner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0491C6AE0229B460"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Woah so new!"
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["4965FD0DFC0DA77A"]
+			id: "18E46C1D3EF3B8A8"
+			tasks: [{
+				id: "6BAF90ED2456C13F"
+				type: "advancement"
+				advancement: "create:brass_casing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04622CE55087F446"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "724F4229A131F3B1"
+			tasks: [{
+				id: "61676A6B5A57148E"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "6EE3142DA6C3DC17"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "575012E80E135CE2"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "56833892B6D23B16"
+			tasks: [{
+				id: "2CA4F37AB4BDFD72"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [
+				{
+					id: "4E58FE8C787DB729"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "4614FFB0E6992C71"
+					type: "item"
+					item: "minecraft:stone"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Poke!"
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "4F7140016B72DD45"
+			tasks: [{
+				id: "519458C8CFD64E75"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "01E7C700884B34D7"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["116EFB9B2F4C4712"]
+			id: "253E6D344CB55C09"
+			tasks: [{
+				id: "398D45BEFEC208DE"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [
+				{
+					id: "3F2A46FF735CF1FC"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "1EE2BA861A8DBBE4"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["1139932208DC5F42"]
+			id: "4A23AD96A7651EC4"
+			tasks: [{
+				id: "089B15170E3A1AA9"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "03FC930AD34CD563"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "So many Machines!"
+			icon: "create:cogwheel"
+			x: 5.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: [
+				"4F7140016B72DD45"
+				"724F4229A131F3B1"
+				"253E6D344CB55C09"
+				"56833892B6D23B16"
+				"2C105DD553EBE8DD"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "5391E96B3D166451"
+			tasks: [{
+				id: "06B5CF594F88BD75"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "73404EE39EED52CE"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "They fear your power"
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["18E46C1D3EF3B8A8"]
+			id: "346367F03A61207C"
+			tasks: [{
+				id: "150865ED17BC726C"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "0C89A34BFA4E6F6D"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Make the globe warm!"
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["18E46C1D3EF3B8A8"]
+			id: "4912A5EEC315804C"
+			tasks: [{
+				id: "071FA642A82A5C73"
+				type: "advancement"
+				advancement: "create:flywheel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "713381C58875BC19"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "A true engineer"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["18E46C1D3EF3B8A8"]
+			id: "7A30BA2539CE6B3E"
+			tasks: [{
+				id: "0CF03A4944D22DC9"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "0898B9A3BB13E1B2"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Look at all that you have created!"
+			icon: "create:large_cogwheel"
+			x: 13.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: [
+				"346367F03A61207C"
+				"7A30BA2539CE6B3E"
+				"4912A5EEC315804C"
+			]
+			size: 1.5d
+			id: "0635FDFC129AB28E"
+			tasks: [{
+				id: "549770ECF10F94F2"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "4F6E3774F17A13AD"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Wow I can already do this..."
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["1139932208DC5F42"]
+			hide: true
+			id: "3778CA12CAB740BA"
+			tasks: [{
+				id: "3DFAC8CB5B6C5757"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "44B8C9F96BA2A77D"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "*Spit*"
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["1139932208DC5F42"]
+			hide: true
+			id: "04B78A034B2E36D2"
+			tasks: [{
+				id: "45EB9C96C76C5312"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "21BF5A397B483A89"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Move those items!"
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["2EF1208E45AE8C6C"]
+			id: "43310AC421D6EF0A"
+			tasks: [{
+				id: "2C6A37C1774611EF"
+				type: "advancement"
+				advancement: "create:belt"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "690EB5E5496D5E68"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			id: "16812A83679E0B94"
+			tasks: [{
+				id: "245DAE7E250A74C7"
+				type: "advancement"
+				advancement: "ae2:main/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E2BF2DF8A23C809"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Shiny Crystals"
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["16812A83679E0B94"]
+			id: "202DAA7E8A65B3ED"
+			tasks: [{
+				id: "6B63FEBFCD51A999"
+				type: "advancement"
+				advancement: "ae2:main/quartz_crystal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6188D73CB3A49FF8"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Sheets of Iron"
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["29D467565FF7C0EE"]
+			id: "7F5EA8EBD156DCEA"
+			tasks: [{
+				id: "1AAAC55EFF62BC57"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+			rewards: [{
+				id: "2DA5F74773C86946"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "The electric path"
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["7F5EA8EBD156DCEA"]
+			id: "3ACF4F07FB44197E"
+			tasks: [{
+				id: "4BAC21D64FA507DF"
+				type: "item"
+				item: "indrev:machine_block"
+			}]
+			rewards: [{
+				id: "21F80AC83AC72F4E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Wires!"
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["7F5EA8EBD156DCEA"]
+			id: "20AB80D3A5419495"
+			tasks: [{
+				id: "62E6FFC106DF3197"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "6970E51D5862F85F"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Automation!"
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["18E46C1D3EF3B8A8"]
+			id: "505C470E6D11D070"
+			tasks: [{
+				id: "6615D5E909562BF0"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "4D1F87D4F48B0F72"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Bridging the gap..."
+			x: 11.5d
+			y: 2.5d
+			dependencies: [
+				"20AB80D3A5419495"
+				"505C470E6D11D070"
+			]
+			id: "3F5F7437BD0AB867"
+			tasks: [{
+				id: "0D08DFC3DB13B664"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "6D620F7DE1100151"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Making energy like a true engineer!"
+			x: 11.5d
+			y: 4.5d
+			dependencies: ["3F5F7437BD0AB867"]
+			id: "7A84BB064EAEFCF9"
+			tasks: [{
+				id: "3BB24CA75F32189F"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "50140BAABF0B6173"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Heat To Electricity"
+			x: 10.0d
+			y: 4.5d
+			dependencies: ["20AB80D3A5419495"]
+			hide: true
+			id: "19BBEC0FC939B999"
+			tasks: [{
+				id: "4C02E55ED71C74BB"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+			rewards: [{
+				id: "25FA9AE9E4D03068"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["2675D666ABFB390A"]
+			id: "4965FD0DFC0DA77A"
+			tasks: [{
+				id: "1E6BFEB6FD8AAF73"
+				type: "advancement"
+				advancement: "create:brass"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "689ED06C19A69205"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["3ACF4F07FB44197E"]
+			id: "05C6F37DE8A6C60E"
+			tasks: [{
+				id: "7E41A45B65CC3EE7"
+				type: "item"
+				item: "indrev:circuit_mk1"
+			}]
+			rewards: [{
+				id: "496AF60C86766B2E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "00D5537875CA442B"
+			tasks: [{
+				id: "3B3F69F1B6445FF5"
+				type: "item"
+				item: "indrev:coal_generator_mk1"
+			}]
+			rewards: [{
+				id: "6BEDF4465E699F06"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Harness the sun!"
+			x: 10.5d
+			y: 7.5d
+			dependencies: ["00D5537875CA442B"]
+			id: "4EF26588805B249E"
+			tasks: [{
+				id: "1BCEA6849B46688B"
+				type: "item"
+				item: "indrev:solar_generator_mk1"
+			}]
+			rewards: [{
+				id: "055E5631D08C18D5"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			dependencies: [
+				"47098731BD5DA2C4"
+				"1911198B18B21F08"
+			]
+			dependency_requirement: "one_completed"
+			id: "702880B14D3092A5"
+			tasks: [{
+				id: "777A8495572FB32F"
+				type: "item"
+				item: "indrev:circuit_mk2"
+			}]
+			rewards: [{
+				id: "6082EA2A444A2B0A"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "47098731BD5DA2C4"
+			tasks: [{
+				id: "79A1EDF40B8C3484"
+				type: "advancement"
+				advancement: "indrev:compressor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2D1642A3B950125A"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "1911198B18B21F08"
+			tasks: [{
+				id: "584FCAEB305830E7"
+				type: "advancement"
+				advancement: "indrev:solid_infuser"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5F06E7F18EE7D37E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "4F59209B70438898"
+			tasks: [{
+				id: "2DBC09500EF6B57D"
+				type: "advancement"
+				advancement: "indrev:electric_furnace"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "09871C73C7DC06E2"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "4109AA42C068A620"
+			tasks: [{
+				id: "21B806EB30667EC0"
+				type: "advancement"
+				advancement: "indrev:pulverizer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7ED869F3AE1CCB2C"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "26B20A4710847C6B"
+			tasks: [{
+				id: "2E41AF621FD366CF"
+				type: "advancement"
+				advancement: "indrev:slaughter_mk1"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "664C8CBCADD9D42A"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "6985DCF45809C717"
+			tasks: [{
+				id: "5088B0A79A7B8B44"
+				type: "advancement"
+				advancement: "indrev:rancher_mk4"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2CDCE64F04A045D2"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			dependencies: ["05C6F37DE8A6C60E"]
+			id: "348CFF2E2F5BAED8"
+			tasks: [{
+				id: "12842FAF0133D73E"
+				type: "advancement"
+				advancement: "indrev:chopper_mk4"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0C26B480E13A7B3F"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Eletric Machine Master"
+			icon: "indrev:nikolite_dust"
+			x: 5.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: [
+				"4F59209B70438898"
+				"4109AA42C068A620"
+				"26B20A4710847C6B"
+				"6985DCF45809C717"
+				"348CFF2E2F5BAED8"
+			]
+			size: 1.5d
+			id: "453A5BEB90040A62"
+			tasks: [{
+				id: "7D0F4D0641BA483E"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "72542257C6C38511"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			dependencies: ["702880B14D3092A5"]
+			id: "05B2EC2C9292577A"
+			tasks: [{
+				id: "54FA0B95CAC80B3A"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			dependencies: ["702880B14D3092A5"]
+			id: "1FEAA6A9D945645E"
+			tasks: [{
+				id: "32042CD13EEE8069"
+				type: "item"
+				item: "indrev:circuit_mk3"
+			}]
+			rewards: [{
+				id: "5CDF89BC9581539E"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.5d
+			dependencies: [
+				"4EF26588805B249E"
+				"1FEAA6A9D945645E"
+			]
+			id: "2294961893419EE7"
+			tasks: [{
+				id: "2B919FFFB052FF34"
+				type: "item"
+				item: "indrev:solar_generator_mk3"
+			}]
+			rewards: [{
+				id: "0B98D8E634A61EA2"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 11.0d
+			dependencies: ["1FEAA6A9D945645E"]
+			id: "66C2FE8A8E5C3424"
+			tasks: [{
+				id: "64ADFF7A9A5E5514"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+			}]
+			rewards: [{
+				id: "0A76501FAFE47DE3"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			dependencies: ["1FEAA6A9D945645E"]
+			id: "1305A4DB4EB3D50C"
+			tasks: [{
+				id: "49F96CB5D7A5867D"
+				type: "item"
+				item: "indrev:circuit_mk4"
+			}]
+			rewards: [{
+				id: "5C977337D93EF573"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 11.0d
+			dependencies: ["1305A4DB4EB3D50C"]
+			id: "77959D833BDDE2E0"
+			tasks: [{
+				id: "40362516B17AF7DA"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+			}]
+			rewards: [{
+				id: "1464073582DEE281"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.0d
+			dependencies: ["1305A4DB4EB3D50C"]
+			id: "04B2122F4B9C48F7"
+			tasks: [{
+				id: "53F87E4CC1051979"
+				type: "item"
+				item: "indrev:modular_armor_helmet"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.0d
+			dependencies: ["1305A4DB4EB3D50C"]
+			id: "3836A2EA778180BF"
+			tasks: [{
+				id: "7109B751E368D077"
+				type: "item"
+				item: "indrev:modular_armor_chest"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 10.0d
+			dependencies: ["1305A4DB4EB3D50C"]
+			id: "63EAE4FE3DEADD3E"
+			tasks: [{
+				id: "69C47B65CACD6D0B"
+				type: "item"
+				item: "indrev:modular_armor_legs"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 11.0d
+			dependencies: ["1305A4DB4EB3D50C"]
+			id: "68A93E6A6ED31CDB"
+			tasks: [{
+				id: "312525659C405DEC"
+				type: "item"
+				item: "indrev:modular_armor_boots"
+			}]
+		}
+		{
+			title: "Woah it's module!"
+			icon: "indrev:module_sharpness"
+			x: 15.0d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: [
+				"04B2122F4B9C48F7"
+				"3836A2EA778180BF"
+				"63EAE4FE3DEADD3E"
+				"68A93E6A6ED31CDB"
+			]
+			size: 1.5d
+			id: "1A714D713BA8535F"
+			tasks: [{
+				id: "4DE946F13F5D3166"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "707DB1CB1C28690B"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Energy storage!"
+			x: 11.5d
+			y: 6.5d
+			dependencies: [
+				"00D5537875CA442B"
+				"19BBEC0FC939B999"
+				"7A84BB064EAEFCF9"
+			]
+			dependency_requirement: "one_completed"
+			id: "561DC1EDD7DE3EA1"
+			tasks: [{
+				id: "31F440998F0DE7DE"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk1"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			dependencies: ["561DC1EDD7DE3EA1"]
+			id: "506927C3A3DF0D85"
+			tasks: [{
+				id: "580911B1352DF0C9"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk2"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.5d
+			dependencies: ["506927C3A3DF0D85"]
+			id: "25C0F6B8032104C6"
+			tasks: [{
+				id: "631F906BAC91C357"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk3"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.5d
+			dependencies: ["25C0F6B8032104C6"]
+			id: "7F434DAB0E3B0DFB"
+			tasks: [{
+				id: "33F8D56841019766"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk4"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["29D467565FF7C0EE"]
+			id: "7BD70AD8B6928E59"
+			tasks: [{
+				id: "6F1E68626EFE7996"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+			rewards: [{
+				id: "6EFA2A1FCEF70E0A"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "I do accept your energy"
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["7F5EA8EBD156DCEA"]
+			id: "7B505EF5EA310DC1"
+			tasks: [{
+				id: "67162B6FFB2C1179"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "66C83B47DB776A6A"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "A another way to generate energy!"
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["7B505EF5EA310DC1"]
+			id: "64CB8C69A55C1874"
+			tasks: [{
+				id: "7B5F92A8CF9B131D"
+				type: "item"
+				item: "ae2:vibration_chamber"
+			}]
+			rewards: [{
+				id: "082BC801660E46E5"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: [
+				"7B505EF5EA310DC1"
+				"202DAA7E8A65B3ED"
+			]
+			dependency_requirement: "one_completed"
+			id: "50A9F9B04B8167F2"
+			tasks: [{
+				id: "121C697F68690056"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "7B33FAADDF061F46"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Shocking!"
+			x: 4.0d
+			y: 7.5d
+			dependencies: ["50A9F9B04B8167F2"]
+			id: "121EA8D6D24B2D00"
+			tasks: [{
+				id: "7C2B1288821BFD7D"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["731CBA7BDCF3F651"]
+			id: "4B2C1A2B8E5FCF7D"
+			tasks: [{
+				id: "455BC39D26DA212E"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+	]
+}

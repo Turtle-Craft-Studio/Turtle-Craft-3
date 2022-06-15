@@ -1,0 +1,584 @@
+{
+	id: "72ADDD45D283AC60"
+	group: ""
+	order_index: 1
+	filename: "exploring_the_world"
+	title: "Exploring the Worlds"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Wow Grass"
+			x: 0.0d
+			y: -1.5d
+			id: "46E60921B2EF3F9F"
+			tasks: [{
+				id: "39ABA00DE9503218"
+				type: "dimension"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "This is uncomfy..."
+			x: 0.0d
+			y: 1.5d
+			id: "6B71ED1AE3BDD575"
+			tasks: [{
+				id: "414C90295E99F183"
+				type: "dimension"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "3809DAF85222FEE0"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "The Plain Village"
+			icon: "minecraft:oak_planks"
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			dependency_requirement: "all_started"
+			id: "6479A5B150A1592B"
+			tasks: [{
+				id: "7C3CDB6670FC5B66"
+				type: "structure"
+				icon: "minecraft:oak_planks"
+				structure: "minecraft:village_plains"
+			}]
+			rewards: [
+				{
+					id: "7823BD3B83B3B393"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "6C0BF4C3A3C2C63C"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "A Sandy Village"
+			icon: "minecraft:sandstone"
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "38CFA0EC1FD24080"
+			tasks: [{
+				id: "0E3CF908BCB68642"
+				type: "structure"
+				title: "Find a Desert Village"
+				icon: "minecraft:sand"
+				structure: "minecraft:village_desert"
+			}]
+			rewards: [
+				{
+					id: "66F0D77CB9D9EB36"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "1C6835C9D148FF55"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "AHHHH FIRE!"
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["6B71ED1AE3BDD575"]
+			id: "40040AB74A1D3873"
+			tasks: [{
+				id: "3060F0618EB4B0CE"
+				type: "structure"
+				icon: "minecraft:blaze_powder"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "2A67A9D3A0EB9811"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "A new beginning"
+			x: -1.5d
+			y: 0.0d
+			id: "3C6967CADCFD822F"
+			tasks: [{
+				id: "293005E392FA17F5"
+				type: "dimension"
+				icon: "minecraft:end_stone"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "0F439FE422A24A1F"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			title: "So many peaks!"
+			icon: "minecraft:snow_block"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["46E60921B2EF3F9F"]
+			id: "785D09799E47292D"
+			tasks: [
+				{
+					id: "62671745E1FE18F2"
+					type: "biome"
+					icon: "minecraft:snow_block"
+					biome: "minecraft:jagged_peaks"
+				}
+				{
+					id: "761D114E45BB1E86"
+					type: "biome"
+					icon: "minecraft:packed_ice"
+					biome: "minecraft:frozen_peaks"
+				}
+				{
+					id: "50C978817644DEEF"
+					type: "biome"
+					icon: "minecraft:stone"
+					biome: "minecraft:stony_peaks"
+				}
+			]
+			rewards: [{
+				id: "6F3AAD6D11B59D36"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Villages"
+			icon: "minecraft:emerald"
+			disable_toast: true
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["46E60921B2EF3F9F"]
+			id: "2FE1550B6304CD7F"
+			tasks: [{
+				id: "73A8E98689DEF8FF"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "Bbbrrrrrr it is cold here"
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "1FE14D69920A3E73"
+			tasks: [{
+				id: "5431A041EE7415F0"
+				type: "structure"
+				icon: "minecraft:snow_block"
+				structure: "minecraft:village_snowy"
+			}]
+			rewards: [
+				{
+					id: "3A16FB400D4CA1A5"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "43F05BC6EECBE889"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "All the Villages!"
+			icon: "minecraft:emerald_block"
+			x: 0.0d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: [
+				"38CFA0EC1FD24080"
+				"6479A5B150A1592B"
+				"1FE14D69920A3E73"
+				"29AE3610DD981414"
+				"71F4F91036B574DF"
+				"4F21F5692934E74D"
+				"2793A0779EE8E023"
+			]
+			size: 1.5d
+			id: "7B2E57404CF9F45B"
+			tasks: [{
+				id: "373B68A5BD789875"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "65936F7DBA940D1F"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 16
+				}
+				{
+					id: "691BC520FF944FBF"
+					type: "random"
+					table_id: 1847866063425568986L
+				}
+			]
+		}
+		{
+			title: "So orange"
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "29AE3610DD981414"
+			tasks: [{
+				id: "744250E02CD43A57"
+				type: "structure"
+				icon: "minecraft:acacia_planks"
+				structure: "minecraft:village_savanna"
+			}]
+			rewards: [
+				{
+					id: "21EDE6F0CAE869CD"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "4EBAF7BC9FBC3FF8"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "The pretty village"
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "71F4F91036B574DF"
+			tasks: [{
+				id: "41102F54293B917B"
+				type: "structure"
+				icon: "minecraft:spruce_planks"
+				structure: "minecraft:village_taiga"
+			}]
+			rewards: [
+				{
+					id: "502152FD33E74600"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "34440CB9A1C65107"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["3C6967CADCFD822F"]
+			id: "67AA5E5B6700C829"
+			tasks: [{
+				id: "23FB31B397804DA3"
+				type: "advancement"
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C423C6FB4A6323D"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "The Red One"
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "4F21F5692934E74D"
+			tasks: [{
+				id: "29A0570D88BDD53C"
+				type: "structure"
+				icon: "byg:red_rock"
+				structure: "byg:village_red_rock"
+			}]
+			rewards: [
+				{
+					id: "6B61A0C314B021AD"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "4000BFFE32F62BC0"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "The one with big trees!"
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["2FE1550B6304CD7F"]
+			id: "2793A0779EE8E023"
+			tasks: [{
+				id: "360C0A85DCDC24A7"
+				type: "structure"
+				icon: "byg:mahogany_planks"
+				structure: "byg:village_tropical"
+			}]
+			rewards: [
+				{
+					id: "52435769D2176E15"
+					type: "random"
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "1CFA453E51B5BCEB"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nice"
+			x: 0.0d
+			y: 0.0d
+			optional: true
+			secret: true
+			id: "017655361E66A48D"
+			tasks: [{
+				id: "24586C53E69B2EF2"
+				type: "location"
+				title: "69 69 69"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					69
+					69
+					69
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+			}]
+			rewards: [{
+				id: "494D9569C961504E"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "It just keeps going"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["46E60921B2EF3F9F"]
+			id: "33AFDEABF29A689B"
+			tasks: [{
+				id: "7D4ED042383CAD72"
+				type: "advancement"
+				advancement: "earth:earthbounds/reach_deepslate"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B1CE2CCC922536E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Mine mine mine"
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["33AFDEABF29A689B"]
+			id: "6F63ECC86ECD3E31"
+			tasks: [{
+				id: "1394874A7510D093"
+				type: "structure"
+				icon: "minecraft:chain"
+				structure: "bettermineshafts:mineshaft_oak"
+			}]
+			rewards: [{
+				id: "68D58FB0B6CBDFEA"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many pigs"
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["6B71ED1AE3BDD575"]
+			id: "4FB5DF57A21F12A3"
+			tasks: [{
+				id: "1E2076C272D65DA0"
+				type: "structure"
+				icon: "minecraft:polished_blackstone_bricks"
+				structure: "minecraft:bastion_remnant"
+			}]
+			rewards: [{
+				id: "5A7456A34CBBDDD9"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "You win vannilla"
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["224D78420B3AF2EB"]
+			id: "4B4B1FCBC3B123D9"
+			tasks: [{
+				id: "305F8F2F0D30C647"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "2AA1AA399F5AB576"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Dungeons"
+			disable_toast: true
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["33AFDEABF29A689B"]
+			id: "41CCBA3A13CD0208"
+			tasks: [{
+				id: "45F4F5565C2C22D7"
+				type: "questsadditions:time"
+				icon: "minecraft:cobblestone"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "Brruuuuhhhh"
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["41CCBA3A13CD0208"]
+			id: "5166D00876E30CC8"
+			tasks: [{
+				id: "4DB5AEC8B051304C"
+				type: "structure"
+				icon: "minecraft:zombie_head"
+				structure: "betterdungeons:zombie_dungeon"
+			}]
+			rewards: [{
+				id: "3E247D3139742E77"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "I Took an Arrow in the Knee"
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["41CCBA3A13CD0208"]
+			id: "562FED7E646DC8A0"
+			tasks: [{
+				id: "7EF3E7937A5C2FCC"
+				type: "structure"
+				icon: "minecraft:skeleton_skull"
+				structure: "betterdungeons:skeleton_dungeon"
+			}]
+			rewards: [{
+				id: "7A26E523D03947B1"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Spiddderrrs"
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["41CCBA3A13CD0208"]
+			id: "731F16A8D5A370FB"
+			tasks: [{
+				id: "1A343615188774A7"
+				type: "structure"
+				icon: "spectrum:spider_head"
+				structure: "betterdungeons:spider_dungeon"
+			}]
+			rewards: [{
+				id: "20DF13009324C308"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "So purple..."
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["3C6967CADCFD822F"]
+			id: "59C5E77C8F037113"
+			tasks: [{
+				id: "5AC6B3D673F2061A"
+				type: "structure"
+				icon: "minecraft:purpur_block"
+				structure: "minecraft:end_city"
+			}]
+			rewards: [{
+				id: "66BB3EDCCE69DC37"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6B71ED1AE3BDD575"]
+			id: "224D78420B3AF2EB"
+			tasks: [{
+				id: "67B8C8ADA4F24E1F"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+			rewards: [{
+				id: "2DFE38EF224AE9FD"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["46E60921B2EF3F9F"]
+			id: "7B7415C479706CC4"
+			tasks: [{
+				id: "090E089F0A0CEBA9"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/ghost_town"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "65CEAA624B45158A"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	id: "19A4F064EEFB00DA"
+	order_index: 3
+	title: "Legendary"
+	icon: "minecraft:netherite_block"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "minecraft:netherite_block" }
+		{ item: "minecraft:diamond", count: 16, weight: 2 }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "minecraft:music_disc_otherside" }
+		{ item: "minecraft:beacon" }
+		{ item: "minecraft:diamond_block", count: 4 }
+		{
+			xp_levels: 20
+			type: "xp_levels"
+			weight: 2
+		}
+		{ item: "minecraft:iron_block", count: 64 }
+		{ item: "minecraft:copper_block", count: 64, weight: 2 }
+		{
+			item: {
+				id: "the_aether:phoenix_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "the_aether:zanite_block", count: 16 }
+		{ item: "minecraft:diamond_ore", count: 4 }
+		{ item: "minecraft:deepslate_diamond_ore", count: 8 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			count: 2
+		}
+		{ item: "create:wand_of_symmetry", weight: 2 }
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+					spell: "arcanus:dream_warp"
+					title: "book.arcanus.dream_warp.title"
+					author: "book.arcanus.04.author"
+				}
+			}
+		}
+		{ item: "artifacts:crystal_heart", weight: 2 }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "biomemakeover:magenta_tapestry", count: 4 }
+		{ item: "biomemakeover:adjudicator_tapestry", count: 4 }
+		{ item: "biomemakeover:yellow_tapestry", count: 4 }
+		{ item: "biomemakeover:red_tapestry", count: 4 }
+	]
+}

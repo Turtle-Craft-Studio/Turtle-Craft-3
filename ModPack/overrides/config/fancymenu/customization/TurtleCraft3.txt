@@ -1,0 +1,147 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = turtlecraft
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 148
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 173
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-left
+  x = 55
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 123
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-left
+  x = 46
+  action = movebutton
+  y = -104
+}
+
+customization {
+  identifier = %id=376334%
+  orientation = bottom-left
+  x = 5
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 223
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 116
+  action = movebutton
+  y = 223
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 30
+  action = movebutton
+  y = -35
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  label = Turtle Craft %serverplayercount:localhost:25565%
+  loopbackgroundanimations = true
+  hoverlabel = Turtle Craft %serverplayercount:localhost:25565%
+  x = 14
+  width = 200
+  actionid = e5008b66-0177-4445-aaf4-23829d0d5bef1653961305676
+  action = addbutton
+  y = 198
+  value = localhost:25565
+  height = 20
+}
+
+customization {
+  path = MenuAssets/fulllogo.png
+  orientation = top-left
+  x = 3
+  width = 239
+  action = addtexture
+  actionid = 57604cc5-11c0-445f-8e79-dcd694d513871653967433920
+  y = 10
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  basecolor = #fff700
+  shadow = true
+  splashfilepath = MenuAssets\splash.txt
+  rotation = -20.0
+  x = 190
+  actionid = f9537f47-c42f-43b1-8330-0bf44cbc0ac41653966478270
+  action = addsplash
+  y = 84
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+

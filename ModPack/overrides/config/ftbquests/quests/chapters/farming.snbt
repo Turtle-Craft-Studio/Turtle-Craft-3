@@ -1,0 +1,640 @@
+{
+	id: "016226E43B7B5FBB"
+	group: ""
+	order_index: 2
+	filename: "farming"
+	title: "Farming and Food"
+	icon: "farmersdelight:basket"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "You got some seeds!"
+			x: 0.0d
+			y: -1.5d
+			id: "4EC8E99B5FDC0417"
+			tasks: [{
+				id: "196801D082F69BC7"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+			rewards: [{
+				id: "509FF2C9B40E1114"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "This counts as farming right?"
+			x: 0.0d
+			y: -4.0d
+			id: "40125567C01203C9"
+			tasks: [{
+				id: "69B0F9659C257509"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2883ABA7B9CFD2D6"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "That's a lotta fish!"
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["40125567C01203C9"]
+			id: "0E14D4EA69FA0591"
+			tasks: [{
+				id: "1DFB9B47D37F5186"
+				type: "stat"
+				icon: "minecraft:cod"
+				stat: "minecraft:fish_caught"
+				value: 128
+			}]
+			rewards: [{
+				id: "1AAD63B52954B0A9"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Spooky!"
+			x: -1.0d
+			y: -1.0d
+			id: "56785DA6DAD52F4F"
+			tasks: [{
+				id: "55FBBCE5C7DD7B3E"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+			}]
+			rewards: [{
+				id: "1A44CD3767D03780"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Not so spooky"
+			x: 1.0d
+			y: -1.0d
+			id: "3A34B6C8CAF5E2B4"
+			tasks: [{
+				id: "3F43BFAF6629EB7A"
+				type: "item"
+				item: "minecraft:melon_seeds"
+			}]
+			rewards: [{
+				id: "5D1A519AF17D28B8"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Why do these exist?"
+			x: -1.5d
+			y: 0.0d
+			id: "4E174AFE29446225"
+			tasks: [{
+				id: "72E360F708F8E360"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+			}]
+			rewards: [{
+				id: "6715A2BA407C671C"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "The Ultimate Vegan"
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Rewarded for geeting all \"non-magic\" seeds"
+			dependencies: [
+				"390DDA3A6A0754D3"
+				"7880C674216C8CE1"
+				"63518F2929E5BA27"
+				"456514F402951DFD"
+				"3A34B6C8CAF5E2B4"
+				"4EC8E99B5FDC0417"
+				"56785DA6DAD52F4F"
+				"4E174AFE29446225"
+				"6F2EEC9DFDFF0B2F"
+				"10D04B002940A988"
+			]
+			size: 1.5d
+			id: "71063C870752E1C2"
+			tasks: [{
+				id: "319F766FE4AB76E1"
+				type: "questsadditions:time"
+				icon: "farmersdelight:basket"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "29C6ACDF15F874CD"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Yet another seed"
+			x: 1.5d
+			y: 0.0d
+			id: "456514F402951DFD"
+			tasks: [{
+				id: "411D6BA47B579FCA"
+				type: "item"
+				item: "farmersdelight:cabbage_seeds"
+			}]
+			rewards: [{
+				id: "7B2FD44FD3E850C0"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Rice!"
+			x: -1.5d
+			y: 1.0d
+			id: "7880C674216C8CE1"
+			tasks: [{
+				id: "63547723E33F3F09"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+			rewards: [{
+				id: "0D01D9BCB9EA7930"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Raw ketchup"
+			x: 1.5d
+			y: 1.0d
+			id: "63518F2929E5BA27"
+			tasks: [{
+				id: "07A6B86AC115C400"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+			}]
+			rewards: [{
+				id: "3273709628AF36DF"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "It's the onions I swear!"
+			x: -1.0d
+			y: 2.0d
+			id: "390DDA3A6A0754D3"
+			tasks: [{
+				id: "3CA6AE12DB3987F5"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+			rewards: [{
+				id: "16F3441F79EB6FC0"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "What is this thing?"
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["40125567C01203C9"]
+			id: "1ACDA68472945991"
+			tasks: [{
+				id: "59BDBEF0BB0346CC"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+			rewards: [{
+				id: "141D7A58807E24D6"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "How did this get in the water?"
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["1ACDA68472945991"]
+			hide_text_until_complete: false
+			id: "0F52F09583848BC0"
+			tasks: [{
+				id: "1A9592A79C432712"
+				type: "item"
+				item: "gofish:iron_crate"
+			}]
+			rewards: [{
+				id: "0319359025A53251"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Value Box"
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["0F52F09583848BC0"]
+			id: "64D047FEBE3CF9D0"
+			tasks: [{
+				id: "7859688E4E63CE79"
+				type: "item"
+				item: "gofish:golden_crate"
+			}]
+			rewards: [{
+				id: "1D089A233039C1EB"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Blue Box!"
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["64D047FEBE3CF9D0"]
+			id: "79D2E2B5DF2DF934"
+			tasks: [{
+				id: "2C4EAF63A42D6F96"
+				type: "item"
+				item: "gofish:diamond_crate"
+			}]
+			rewards: [{
+				id: "38123F5680BEC4E8"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["1ACDA68472945991"]
+			id: "0086687C6E07D969"
+			tasks: [{
+				id: "3840AB9E015CC379"
+				type: "item"
+				item: "gofish:frosted_crate"
+			}]
+			rewards: [{
+				id: "50B0CDE220256306"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["1ACDA68472945991"]
+			id: "36FFF1AE92E208BA"
+			tasks: [{
+				id: "42FFED66D85F9BA2"
+				type: "item"
+				item: "gofish:slimey_crate"
+			}]
+			rewards: [{
+				id: "0F5290940756368F"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["1ACDA68472945991"]
+			id: "4773A11C2A637019"
+			tasks: [{
+				id: "3A79652D5BA59F46"
+				type: "item"
+				item: "gofish:supply_crate"
+			}]
+			rewards: [{
+				id: "0C27216844BC0767"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "These are in the nehter too?!"
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["1ACDA68472945991"]
+			id: "5E5094177F7BAF9C"
+			tasks: [{
+				id: "103D05B068E87BB3"
+				type: "item"
+				item: "gofish:fiery_crate"
+			}]
+			rewards: [{
+				id: "2E826F1CFF2A6EC9"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "I wonder what loot a sould has"
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["5E5094177F7BAF9C"]
+			id: "7F121BE21C30990C"
+			tasks: [{
+				id: "33F1817AB74B80D2"
+				type: "item"
+				item: "gofish:soul_crate"
+			}]
+			rewards: [{
+				id: "4CC1011FF023ACFC"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["5E5094177F7BAF9C"]
+			id: "62ED1BF309829C2B"
+			tasks: [{
+				id: "3743A7AA00439EF7"
+				type: "item"
+				item: "gofish:gilded_blackstone_crate"
+			}]
+			rewards: [{
+				id: "00C6D3B2197FD980"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "It is made of stars!"
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["1ACDA68472945991"]
+			id: "293E86B094ADD324"
+			tasks: [{
+				id: "01DB9B6536E2FE8C"
+				type: "item"
+				item: "gofish:astral_crate"
+			}]
+			rewards: [{
+				id: "1ABB642DA94C4429"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "These things are everywhere"
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["1ACDA68472945991"]
+			id: "21022D88D1837E08"
+			tasks: [{
+				id: "0FE9F3B74008F903"
+				type: "item"
+				item: "gofish:end_crate"
+			}]
+		}
+		{
+			title: "EVEN MORE FISH!"
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["0E14D4EA69FA0591"]
+			id: "25830E1224E288B8"
+			tasks: [{
+				id: "5B45F757F78120F8"
+				type: "stat"
+				icon: "gofish:golden_fish"
+				stat: "minecraft:fish_caught"
+				value: 256
+			}]
+			rewards: [{
+				id: "76157743587D302A"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "You may have a addiction"
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["25830E1224E288B8"]
+			id: "6F1372D3D277181E"
+			tasks: [{
+				id: "0FC48965BAC33D69"
+				type: "stat"
+				icon: "gofish:thundering_bass"
+				stat: "minecraft:fish_caught"
+				value: 512
+			}]
+			rewards: [{
+				id: "5B77F58CD5E09707"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Star Fisher"
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["6F1372D3D277181E"]
+			id: "410EFDD132E7BECB"
+			tasks: [{
+				id: "78BEE357E886204F"
+				type: "stat"
+				icon: "gofish:starry_salmon"
+				stat: "minecraft:fish_caught"
+				value: 1024
+			}]
+			rewards: [{
+				id: "784169742980A762"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Hot Rod"
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["40125567C01203C9"]
+			id: "17C18747C738254A"
+			tasks: [{
+				id: "175B15B74179D8AC"
+				type: "item"
+				item: {
+					id: "gofish:blaze_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2257B7F036C41B84"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Shiny Rod!"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["40125567C01203C9"]
+			id: "5861115919811CB1"
+			tasks: [{
+				id: "75CC205BF1C4E524"
+				type: "item"
+				item: {
+					id: "gofish:diamond_reinforced_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5322D8E3DFEDF664"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "A world of flavor"
+			x: 4.5d
+			y: -4.5d
+			id: "0E7A849BA6C0BDC3"
+			tasks: [{
+				id: "7C9070F4961D1AD9"
+				type: "advancement"
+				advancement: "farmersdelight:main/root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Warrmmm"
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["0E7A849BA6C0BDC3"]
+			id: "15EB3BFA66F94A31"
+			tasks: [{
+				id: "09285C8F749A25DD"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_campfire"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B5A1FD48E965EBA"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Hunter Gatherer"
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["0E7A849BA6C0BDC3"]
+			id: "0C63ABAC85432DDD"
+			tasks: [{
+				id: "2FB2C49D1B11460A"
+				type: "advancement"
+				advancement: "farmersdelight:main/craft_knife"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1FBFDB8E8E1ACB78"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["15EB3BFA66F94A31"]
+			id: "081CE81A7FFE89C5"
+			tasks: [{
+				id: "1D01A0ED0A204394"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_stove"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16C556EC87F1E986"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "732EE7C524E3F7FF"
+			tasks: [{
+				id: "27960A8858802EB4"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/rootling_seeds"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6EA4DE0793FD0B10"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["732EE7C524E3F7FF"]
+			id: "43BDE6E4E85143C1"
+			tasks: [{
+				id: "4CBD2D4AC1ED77DB"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/roasted_bulbus_root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "168FEF8235384329"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "6F2EEC9DFDFF0B2F"
+			tasks: [{
+				id: "3FD16D1253F5EC1E"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "5BD57CA09C9BF471"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "10D04B002940A988"
+			tasks: [{
+				id: "46C91769BCD3B207"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "4E8BAB42F6506622"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+	]
+}

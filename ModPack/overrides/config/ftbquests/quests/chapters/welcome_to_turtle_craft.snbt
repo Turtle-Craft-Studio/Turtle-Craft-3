@@ -1,0 +1,156 @@
+{
+	id: "315EB74BDE95C8FC"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_turtle_craft"
+	title: "Welcome To Turtle Craft"
+	icon: {
+		id: "minecraft:turtle_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "minecraft:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: ["Welcome to Turtle Craft! Not many turtles but plenty of fun :D"]
+			id: "1F4341E3D9FFAD92"
+			tasks: [{
+				id: "0F5FCA1340E1E80C"
+				type: "checkmark"
+				title: "Hello Turtles?"
+			}]
+			rewards: [
+				{
+					id: "5FB91C8272082942"
+					type: "random"
+					team_reward: false
+					table_id: 6723938353872642327L
+				}
+				{
+					id: "4D9FCFC6DD9A5801"
+					type: "item"
+					item: "minecraft:bundle"
+				}
+			]
+		}
+		{
+			title: "Play some Mincraft!"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "08E5A9ABB356AC71"
+			tasks: [{
+				id: "455B33464A054C14"
+				type: "advancement"
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1DED47A69C4B47EE"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Those poor souls...."
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "5522700595E9D41D"
+			tasks: [{
+				id: "4EB75F87183EC6BD"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1000
+			}]
+			rewards: [{
+				id: "4FCB8AA855D05A0B"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "It Begins"
+			x: 0.0d
+			y: -4.0d
+			optional: true
+			id: "2EA97FDD1A965550"
+			tasks: [{
+				id: "33944BDD67871DE4"
+				type: "questsadditions:days"
+				days: 1
+			}]
+		}
+		{
+			title: "THE WORLD EXPANDS!"
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["2EA97FDD1A965550"]
+			optional: true
+			secret: true
+			id: "4DC0C1E95B2C2BE9"
+			tasks: [{
+				id: "46EC4F7F6F83CC92"
+				type: "questsadditions:days"
+				days: 1000
+			}]
+			rewards: [{
+				id: "1F9A9A451D3F608B"
+				type: "command"
+				auto: "invisible"
+				command: "/worldborder set 16000 240"
+				player_command: false
+			}]
+		}
+		{
+			title: "The world is so big...."
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["4DC0C1E95B2C2BE9"]
+			optional: true
+			secret: true
+			id: "5B0E4E5CE0C08510"
+			tasks: [{
+				id: "04AC2BEE244CE022"
+				type: "questsadditions:days"
+				days: 5000
+			}]
+			rewards: [{
+				id: "4084708F9DDC6EEE"
+				type: "command"
+				auto: "invisible"
+				command: "/worldborder set 32000 480"
+				player_command: false
+			}]
+		}
+		{
+			title: "Teleportation"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "182A8DE4F4FD3685"
+			tasks: [{
+				id: "1974D939C6611335"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "5BA6EE3ED3ABC812"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+	]
+}

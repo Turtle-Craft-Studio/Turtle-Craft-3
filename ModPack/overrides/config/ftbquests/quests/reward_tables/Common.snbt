@@ -1,0 +1,64 @@
+{
+	id: "5D503A4ED2342117"
+	order_index: 0
+	title: "Common"
+	icon: "minecraft:iron_block"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_sapling", count: 4 }
+		{ item: "minecraft:spruce_sapling", count: 4 }
+		{ item: "minecraft:birch_sapling", count: 4 }
+		{ item: "minecraft:jungle_sapling", count: 4 }
+		{ item: "minecraft:acacia_sapling", count: 4 }
+		{ item: "minecraft:dark_oak_sapling", count: 4 }
+		{
+			xp_levels: 5
+			type: "xp_levels"
+		}
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "minecraft:cookie", count: 16, weight: 2 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:sweet_berries", count: 16 }
+		{ item: "minecraft:wheat_seeds", count: 4 }
+		{ item: "minecraft:pumpkin_seeds", count: 4 }
+		{ item: "minecraft:melon_seeds", count: 4 }
+		{ item: "minecraft:beetroot_seeds", count: 4 }
+		{ item: "farmersdelight:cabbage_seeds", count: 4 }
+		{ item: "farmersdelight:tomato_seeds", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 8, weight: 2 }
+		{ item: "inmis:baby_backpack", weight: 3 }
+		{ item: "inmis:frayed_backpack", weight: 2 }
+		{ item: "farmersdelight:hamburger", count: 8, weight: 2 }
+		{ item: "farmersdelight:rice", count: 8 }
+		{
+			item: {
+				id: "minecraft:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:bamboo", count: 4 }
+		{ item: "create:andesite_alloy", count: 8, weight: 2 }
+		{ item: "create:goggles" }
+		{ item: "minecraft:moss_block", count: 4 }
+		{ item: "blockus:white_oak_sapling", count: 4 }
+		{ item: "farmersdelight:roast_chicken_block", count: 2 }
+		{ item: "byg:orchard_sapling", count: 4 }
+		{ item: "byg:pink_cherry_sapling", count: 4 }
+		{ item: "byg:white_cherry_sapling", count: 4 }
+		{ item: "blockus:rainbow_petal", count: 8 }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:umbrella", weight: 2 }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "biomemakeover:cyan_tapestry", count: 4 }
+		{ item: "biomemakeover:brown_tapestry", count: 4 }
+		{ item: "biomemakeover:white_tapestry", count: 4 }
+		{ item: "biomemakeover:pink_tapestry", count: 4 }
+		{ item: "byg:aspen_sapling", count: 4 }
+		{ item: "byg:mahogany_sapling", count: 4 }
+		{ item: "byg:mangrove_sapling", count: 4 }
+		{ item: "ecologics:coconut", count: 4 }
+	]
+}

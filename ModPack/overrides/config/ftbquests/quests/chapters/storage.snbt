@@ -1,0 +1,365 @@
+{
+	id: "7A8B15482F10FC78"
+	group: ""
+	order_index: 5
+	filename: "storage"
+	title: "Storage"
+	icon: "expandedstorage:iron_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A classic chest!"
+			x: 0.0d
+			y: 0.0d
+			id: "0496B6550EADDF19"
+			tasks: [{
+				id: "566846EF6631CE04"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "634F5A51FDF70B8D"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Woah it is bigger"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["0496B6550EADDF19"]
+			hide: true
+			id: "2BFCFD0A045FA73D"
+			tasks: [{
+				id: "27341C8DEAADEAE6"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [{
+				id: "6E98C58B466C7FDF"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Shinnyyy"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["2BFCFD0A045FA73D"]
+			hide: true
+			id: "32A50C5CDF621E40"
+			tasks: [{
+				id: "7F2305D35705FF11"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+			rewards: [{
+				id: "5FBB7351745545B9"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many items"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["32A50C5CDF621E40"]
+			hide: true
+			id: "105D8013A2C11397"
+			tasks: [{
+				id: "2391421F6BA801F2"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+			rewards: [{
+				id: "76D69FD56CBBF414"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "The chest is hard..."
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["105D8013A2C11397"]
+			hide: true
+			id: "6F40545A993B3574"
+			tasks: [{
+				id: "7F36D75CBBF6D682"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+			rewards: [{
+				id: "7B96F2BBA723E94B"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "SO MUCH SPACE"
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["6F40545A993B3574"]
+			hide: true
+			id: "009C7C6F18F377BF"
+			tasks: [{
+				id: "3AA1CC30575840A0"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+			rewards: [{
+				id: "39CD072581EF4DD1"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "A nicer chest"
+			x: 1.5d
+			y: 0.0d
+			id: "61FAA326776D100A"
+			tasks: [{
+				id: "6F709B83392CD73B"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "7719CC88D8740EC2"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Bigggerr"
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["61FAA326776D100A"]
+			hide: true
+			id: "1E4EF6340C472FB6"
+			tasks: [{
+				id: "77BE5885AF6F55CA"
+				type: "item"
+				item: "expandedstorage:iron_barrel"
+			}]
+			rewards: [{
+				id: "7C703779188B13D9"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Shinny stripes"
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["1E4EF6340C472FB6"]
+			hide: true
+			id: "2F74F1743CF9C819"
+			tasks: [{
+				id: "79A33A89A3F80492"
+				type: "item"
+				item: "expandedstorage:gold_barrel"
+			}]
+			rewards: [{
+				id: "6D3C65EA89A13611"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Blue can be shiny too"
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["2F74F1743CF9C819"]
+			hide: true
+			id: "45615107D1E3BB64"
+			tasks: [{
+				id: "571A041ADC532844"
+				type: "item"
+				item: "expandedstorage:diamond_barrel"
+			}]
+			rewards: [{
+				id: "7F5220A04668B1AB"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Hard wood..."
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["45615107D1E3BB64"]
+			hide: true
+			id: "576E423B31EBB1FF"
+			tasks: [{
+				id: "455E0CB1D2CEEB42"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
+			rewards: [{
+				id: "1DA2E933A967F1C9"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Look at you go!"
+			x: 1.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["576E423B31EBB1FF"]
+			id: "36391BB89F8C7D0D"
+			tasks: [{
+				id: "3D80F8783BB78574"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
+			}]
+			rewards: [{
+				id: "582C46A959425702"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Waaaa Waaaa"
+			x: -1.5d
+			y: 0.0d
+			id: "22747A24E91D077F"
+			tasks: [{
+				id: "6FACA2BCA810EF75"
+				type: "item"
+				item: "inmis:baby_backpack"
+			}]
+			rewards: [{
+				id: "6B0DF418DE4CE91C"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "It works I guess..."
+			x: -1.5d
+			y: 1.0d
+			hide: true
+			id: "588DA54A34A57586"
+			tasks: [{
+				id: "6B64D0E19BA22F3E"
+				type: "item"
+				item: "inmis:frayed_backpack"
+			}]
+			rewards: [{
+				id: "0567904DC73C0B4B"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "My back hurts"
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["588DA54A34A57586"]
+			hide: true
+			id: "3768D5B7DC29B165"
+			tasks: [{
+				id: "022693D9DFC5CC08"
+				type: "item"
+				item: "inmis:plated_backpack"
+			}]
+			rewards: [{
+				id: "46B19B4A2B160DED"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Butter bag"
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["3768D5B7DC29B165"]
+			hide: true
+			id: "2AB9DC5EC2D52266"
+			tasks: [{
+				id: "48986F4BBBD05068"
+				type: "item"
+				item: "inmis:gilded_backpack"
+			}]
+			rewards: [{
+				id: "54B0D81E71E21E13"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Super Shiny"
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["2AB9DC5EC2D52266"]
+			hide: true
+			id: "62FD6D446C9E70EB"
+			tasks: [{
+				id: "3A7D738F4F399F8C"
+				type: "item"
+				item: "inmis:bejeweled_backpack"
+			}]
+			rewards: [{
+				id: "1651046197EA244A"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "IT'S BURNING MY BACK"
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["62FD6D446C9E70EB"]
+			hide: true
+			id: "4575931D4D597659"
+			tasks: [{
+				id: "06CDA0F19D6111E0"
+				type: "item"
+				item: "inmis:blazing_backpack"
+			}]
+			rewards: [{
+				id: "55071D1B64D6F343"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "It has a star in it..."
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["62FD6D446C9E70EB"]
+			hide: true
+			id: "2B1ED591AC1CA8D7"
+			tasks: [{
+				id: "5BE76760F1B3D478"
+				type: "item"
+				item: "inmis:withered_backpack"
+			}]
+			rewards: [{
+				id: "094027EE1D39784E"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "IT JUST KEEPS GOING!"
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["2B1ED591AC1CA8D7"]
+			hide: true
+			id: "0BB2044CE8B5A56C"
+			tasks: [{
+				id: "4ABE663CA9004BAC"
+				type: "item"
+				item: "inmis:endless_backpack"
+			}]
+			rewards: [{
+				id: "39CC913B65A534E3"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+	]
+}

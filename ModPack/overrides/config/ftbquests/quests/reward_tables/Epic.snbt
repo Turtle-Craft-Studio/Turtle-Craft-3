@@ -1,0 +1,129 @@
+{
+	id: "47B0746FEC87BA6A"
+	order_index: 2
+	title: "Epic"
+	icon: "minecraft:diamond_block"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "create:potato_cannon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
+					spell: "arcanus:lunge"
+					author: "book.arcanus.08.author"
+					title: "book.arcanus.lunge.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+					spell: "arcanus:dream_warp"
+					author: "book.arcanus.04.author"
+					title: "book.arcanus.dream_warp.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
+					spell: "arcanus:magic_missile"
+					author: "book.arcanus.15.author"
+					title: "book.arcanus.magic_missile.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
+					spell: "arcanus:heal"
+					author: "book.arcanus.15.author"
+					title: "book.arcanus.heal.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
+					spell: "arcanus:discombobulate"
+					author: "book.arcanus.05.author"
+					title: "book.arcanus.discombobulate.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
+					spell: "arcanus:solar_strike"
+					author: "book.arcanus.02.author"
+					title: "book.arcanus.solar_strike.title"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
+					spell: "arcanus:arcane_barrier"
+					author: "book.arcanus.03.author"
+					title: "book.arcanus.arcane_barrier.title"
+				}
+			}
+		}
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "minecraft:diamond_block" }
+		{ item: "minecraft:diamond", count: 8 }
+		{ item: "minecraft:iron_block", count: 16 }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "minecraft:copper_block", count: 48 }
+		{ item: "create:brass_ingot", count: 16 }
+		{
+			xp_levels: 15
+			type: "xp_levels"
+		}
+		{ item: "biomemakeover:purple_tapestry", count: 4 }
+		{ item: "biomemakeover:lime_tapestry", count: 4 }
+		{ item: "biomemakeover:green_tapestry", count: 4 }
+		{ item: "biomemakeover:gray_tapestry", count: 4 }
+		{ item: "biomemakeover:black_tapestry", count: 4 }
+	]
+}

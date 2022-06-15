@@ -1,0 +1,62 @@
+{
+	id: "6B1CAAB8F5BC3654"
+	order_index: 1
+	title: "Rare"
+	icon: "minecraft:gold_block"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:diamond", count: 4 }
+		{
+			xp_levels: 10
+			type: "xp_levels"
+		}
+		{ item: "minecraft:diamond_block" }
+		{ item: "minecraft:oak_log", count: 32 }
+		{ item: "minecraft:spruce_log", count: 32 }
+		{ item: "minecraft:birch_log", count: 32 }
+		{ item: "minecraft:jungle_log", count: 32 }
+		{ item: "minecraft:acacia_log", count: 32 }
+		{ item: "minecraft:dark_oak_log", count: 32 }
+		{ item: "minecraft:iron_block", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 16 }
+		{ item: "minecraft:coal", count: 32 }
+		{ item: "farmersdelight:bacon_sandwich", count: 32 }
+		{ item: "minecraft:copper_block", count: 32 }
+		{ item: "minecraft:wither_rose", count: 4 }
+		{ item: "minecraft:wolf_spawn_egg" }
+		{ item: "minecraft:cat_spawn_egg" }
+		{
+			item: {
+				id: "create:potato_cannon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:crushing_wheel", count: 2 }
+		{ item: "blockus:white_oak_log", count: 32 }
+		{ item: "the_aether:skyroot_log", count: 32 }
+		{ item: "the_aether:skyroot_sapling", count: 4 }
+		{ item: "minecraft:crimson_stem", count: 32 }
+		{ item: "minecraft:warped_stem", count: 32 }
+		{ item: "farmersdelight:roast_chicken_block", count: 16 }
+		{
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
+					spell: "arcanus:heal"
+					author: "book.arcanus.15.author"
+					title: "book.arcanus.heal.title"
+				}
+			}
+		}
+		{ item: "biomemakeover:orange_tapestry", count: 4 }
+		{ item: "biomemakeover:light_blue_tapestry", count: 4 }
+		{ item: "biomemakeover:blue_tapestry", count: 4 }
+		{ item: "biomemakeover:light_gray_tapestry" }
+		{ item: "minecraft:axolotl_spawn_egg" }
+	]
+}
