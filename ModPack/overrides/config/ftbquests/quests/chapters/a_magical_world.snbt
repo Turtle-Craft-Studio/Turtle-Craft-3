@@ -439,6 +439,8 @@
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["4349C121CF43075A"]
+			hide: true
+			dependency_requirement: "one_started"
 			id: "1FCFBE98F1D10C43"
 			tasks: [{
 				id: "1DC741E8D1DDEEF2"
@@ -456,6 +458,7 @@
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["1FCFBE98F1D10C43"]
+			hide: true
 			id: "24F1343B27FF2A6D"
 			tasks: [{
 				id: "78C6BB4B819F1473"
@@ -467,6 +470,132 @@
 				id: "1E1E3E7DD112CCD0"
 				type: "random"
 				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Shimmering"
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["4349C121CF43075A"]
+			id: "44DA0007F8F19808"
+			tasks: [{
+				id: "2ECE991447555D0D"
+				type: "item"
+				item: "spectrum:sparklestone_gem"
+			}]
+			rewards: [{
+				id: "52F3A33BF25896AE"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Life!"
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["44DA0007F8F19808"]
+			hide: true
+			id: "3018C1DFBF618EB2"
+			tasks: [{
+				id: "7BEA385E5DFBA532"
+				type: "item"
+				item: "spectrum:bottle_of_fading"
+			}]
+			rewards: [{
+				id: "29195858E97FF338"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Eat my glob!"
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["3018C1DFBF618EB2"]
+			hide: true
+			id: "4F3A55DD4A33C1BE"
+			tasks: [{
+				id: "6804DF26D31A0DD9"
+				type: "item"
+				item: "spectrum:vegetal"
+			}]
+			rewards: [{
+				id: "2A70435E4A4570C8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Prospering!"
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "2CD8623E65E498AC"
+			tasks: [{
+				id: "328F7C9B74F51BB9"
+				type: "item"
+				item: "spectrum:glistering_melon_seeds"
+			}]
+			rewards: [{
+				id: "4BBFB2C8EACFC050"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Pure Color"
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["4C3FC727E10582D8"]
+			id: "55D1756DF969DBF4"
+			tasks: [{
+				id: "5173FD0151FEB0D8"
+				type: "advancement"
+				advancement: "spectrum:collect_pigment"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "165F479467DEFC6F"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many colors!"
+			x: 9.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["55D1756DF969DBF4"]
+			size: 1.5d
+			id: "7A3BAC941E65BD87"
+			tasks: [{
+				id: "0EED469C98A5B0B9"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "38D59D4DC4DBC866"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Colorful Tree's!"
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "4C3FC727E10582D8"
+			tasks: [{
+				id: "3ED054877B17F9D2"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_sapling"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C428B871A22DC19"
+				type: "random"
+				table_id: 6723938353872642327L
 			}]
 		}
 	]
