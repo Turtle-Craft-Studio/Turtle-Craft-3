@@ -3,6 +3,9 @@
     "megane-kibe": {
       "lol.bai.megane.module.kibe.MeganeKibe": true
     },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true
     },
@@ -11,6 +14,9 @@
     },
     "megane-fabric-transfer": {
       "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true
+    },
+    "megane-alloy-forgery": {
+      "lol.bai.megane.module.alloyforgery.MeganeAlloyForgery": true
     },
     "megane-tech-reborn": {
       "lol.bai.megane.module.techreborn.MeganeTechReborn": true

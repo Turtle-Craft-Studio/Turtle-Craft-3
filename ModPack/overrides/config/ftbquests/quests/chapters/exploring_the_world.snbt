@@ -477,8 +477,8 @@
 		}
 		{
 			title: "Brruuuuhhhh"
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 			dependencies: ["41CCBA3A13CD0208"]
 			id: "5166D00876E30CC8"
 			tasks: [{
@@ -495,8 +495,8 @@
 		}
 		{
 			title: "I Took an Arrow in the Knee"
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: -2.5d
 			dependencies: ["41CCBA3A13CD0208"]
 			id: "562FED7E646DC8A0"
 			tasks: [{
@@ -513,8 +513,8 @@
 		}
 		{
 			title: "Spiddderrrs"
-			x: 2.0d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 			dependencies: ["41CCBA3A13CD0208"]
 			id: "731F16A8D5A370FB"
 			tasks: [{
@@ -578,57 +578,6 @@
 				id: "65CEAA624B45158A"
 				type: "random"
 				table_id: 7718231572779644500L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -2.5d
-			dependencies: ["33AFDEABF29A689B"]
-			id: "7779603181DE25C7"
-			tasks: [{
-				id: "79B9B6317EEF7BC3"
-				type: "advancement"
-				advancement: "spectrum:find_ancient_ruins"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "496BDF01277DA5C0"
-				type: "random"
-				table_id: 6723938353872642327L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -2.5d
-			dependencies: ["7779603181DE25C7"]
-			id: "6521821A36CEA55C"
-			tasks: [{
-				id: "772EC8482DDBECEE"
-				type: "advancement"
-				advancement: "spectrum:enter_ancient_ruins"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "7F3ACF90619C9044"
-				type: "random"
-				table_id: 6723938353872642327L
-			}]
-		}
-		{
-			x: 6.0d
-			y: -2.5d
-			dependencies: ["6521821A36CEA55C"]
-			id: "54DE49FF46757623"
-			tasks: [{
-				id: "31277CE9E7F9CD1C"
-				type: "advancement"
-				advancement: "spectrum:generate_ancient_ruins_loot"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "4FA9B5E0E9336682"
-				type: "random"
-				table_id: 5165756796652468842L
 			}]
 		}
 	]

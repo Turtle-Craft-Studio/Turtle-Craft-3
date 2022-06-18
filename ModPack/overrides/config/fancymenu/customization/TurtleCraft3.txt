@@ -72,14 +72,6 @@ customization {
 }
 
 customization {
-  identifier = %id=376334%
-  orientation = bottom-left
-  x = 5
-  action = movebutton
-  y = -35
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-left
   x = 15
@@ -143,5 +135,25 @@ customization {
   scale = 1.0
   refresh = false
   bouncing = true
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = bottom-left
+  x = 5
+  action = movebutton
+  y = -35
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -199
+  actionid = 918e9325-04e9-49a6-b3ff-f32c9a7332ab1655499015908
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = https://www.patreon.com/AverageTurtle
 }
 

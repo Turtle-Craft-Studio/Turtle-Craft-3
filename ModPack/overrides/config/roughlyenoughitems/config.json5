@@ -1,16 +1,19 @@
 {
 	"basics": {
 		"favorites": [
-			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}"
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
+			"{type:\"roughlyenoughitems:weather\",weather:\"NOT_SET\"}",
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
+			"{data:{Count:1b,id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:slowness\"},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [
-			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}"
+			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}"
 		],
 		// Declares whether cheating mode is on.
-		"cheating": "WHEN_CREATIVE",
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
