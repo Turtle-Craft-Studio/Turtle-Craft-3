@@ -52,8 +52,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
 					spell: "arcanus:dream_warp"
-					title: "book.arcanus.dream_warp.title"
 					author: "book.arcanus.04.author"
+					title: "book.arcanus.dream_warp.title"
 				}
 			}
 		}
@@ -64,5 +64,6 @@
 		{ item: "biomemakeover:adjudicator_tapestry", count: 4 }
 		{ item: "biomemakeover:yellow_tapestry", count: 4 }
 		{ item: "biomemakeover:red_tapestry", count: 4 }
+		{ item: "thonkutil:turtle_cape" }
 	]
 }

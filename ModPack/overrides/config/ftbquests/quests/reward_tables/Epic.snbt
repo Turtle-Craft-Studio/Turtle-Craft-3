@@ -30,8 +30,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 					spell: "arcanus:lunge"
-					author: "book.arcanus.08.author"
 					title: "book.arcanus.lunge.title"
+					author: "book.arcanus.08.author"
 				}
 			}
 		}
@@ -42,8 +42,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
 					spell: "arcanus:dream_warp"
-					author: "book.arcanus.04.author"
 					title: "book.arcanus.dream_warp.title"
+					author: "book.arcanus.04.author"
 				}
 			}
 		}
@@ -54,8 +54,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 					spell: "arcanus:magic_missile"
-					author: "book.arcanus.15.author"
 					title: "book.arcanus.magic_missile.title"
+					author: "book.arcanus.15.author"
 				}
 			}
 		}
@@ -66,8 +66,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 					spell: "arcanus:heal"
-					author: "book.arcanus.15.author"
 					title: "book.arcanus.heal.title"
+					author: "book.arcanus.15.author"
 				}
 			}
 		}
@@ -78,8 +78,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 					spell: "arcanus:discombobulate"
-					author: "book.arcanus.05.author"
 					title: "book.arcanus.discombobulate.title"
+					author: "book.arcanus.05.author"
 				}
 			}
 		}
@@ -90,8 +90,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 					spell: "arcanus:solar_strike"
-					author: "book.arcanus.02.author"
 					title: "book.arcanus.solar_strike.title"
+					author: "book.arcanus.02.author"
 				}
 			}
 		}
@@ -102,8 +102,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 					spell: "arcanus:arcane_barrier"
-					author: "book.arcanus.03.author"
 					title: "book.arcanus.arcane_barrier.title"
+					author: "book.arcanus.03.author"
 				}
 			}
 		}

@@ -99,15 +99,15 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   buttonaction = joinserver
-  label = Turtle Craft %serverplayercount:localhost:25565%
+  label = Turtle Craft %serverplayercount:turtle-craft.my.pebble.host%
   loopbackgroundanimations = true
-  hoverlabel = Turtle Craft %serverplayercount:localhost:25565%
+  hoverlabel = Turtle Craft %serverplayercount:turtle-craft.my.pebble.host%
   x = 14
   width = 200
   actionid = e5008b66-0177-4445-aaf4-23829d0d5bef1653961305676
   action = addbutton
   y = 198
-  value = localhost:25565
+  value = turtle-craft.my.pebble.host
   height = 20
 }
 

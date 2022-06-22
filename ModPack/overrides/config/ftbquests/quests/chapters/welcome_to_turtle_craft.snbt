@@ -152,5 +152,98 @@
 				table_id: 6723938353872642327L
 			}]
 		}
+		{
+			title: "Slay the Lich"
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "6F60BBAFF52A4EAB"
+			tasks: [{
+				id: "172D4574CDC8EDD4"
+				type: "item"
+				item: "bosses_of_mass_destruction:ancient_anima"
+			}]
+			rewards: [{
+				id: "0522F0E88EF7247A"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Slay the Void Blossom"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "0D80F9C1184A3117"
+			tasks: [{
+				id: "7D68B1E3D3A31FC3"
+				type: "item"
+				item: "bosses_of_mass_destruction:crystal_fruit"
+			}]
+			rewards: [{
+				id: "155733E62578F1B6"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Slay the Obsidilith"
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "761BB78CD99DCC6F"
+			tasks: [{
+				id: "5CABF67598F9415C"
+				type: "item"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+			}]
+			rewards: [{
+				id: "5D370FB3BB390964"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Slay the Guanlet"
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["1F4341E3D9FFAD92"]
+			id: "6C63A4FD82539B86"
+			tasks: [{
+				id: "206F939119B63A1D"
+				type: "item"
+				item: "bosses_of_mass_destruction:blazing_eye"
+			}]
+			rewards: [{
+				id: "01FF1A7F8C07706F"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Slay the Gods"
+			x: 0.0d
+			y: 4.0d
+			shape: "pentagon"
+			dependencies: [
+				"0D80F9C1184A3117"
+				"761BB78CD99DCC6F"
+				"6F60BBAFF52A4EAB"
+				"6C63A4FD82539B86"
+			]
+			size: 1.5d
+			id: "5CA056FC36F13711"
+			tasks: [{
+				id: "7729E8F69F97AF01"
+				type: "questsadditions:time"
+				icon: "bosses_of_mass_destruction:charged_ender_pearl"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "2B0A67CE951C6DDF"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
 	]
 }

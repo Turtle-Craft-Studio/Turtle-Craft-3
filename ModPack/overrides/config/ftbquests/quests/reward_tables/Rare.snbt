@@ -48,8 +48,8 @@
 				tag: {
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 					spell: "arcanus:heal"
-					author: "book.arcanus.15.author"
 					title: "book.arcanus.heal.title"
+					author: "book.arcanus.15.author"
 				}
 			}
 		}

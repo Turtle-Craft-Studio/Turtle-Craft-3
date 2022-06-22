@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:331
+ignoreUpdate:332
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true

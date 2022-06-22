@@ -17,7 +17,6 @@
 				"7D0070DB8C52BBAA"
 				"1427B9C3B42B092C"
 			]
-			hide: true
 			dependency_requirement: "one_completed"
 			id: "0F25E868FA801667"
 			tasks: [{
@@ -69,7 +68,6 @@
 			x: -1.5d
 			y: 0.0d
 			dependencies: ["61414DD4E8043B3D"]
-			hide: true
 			id: "529460D33FA81792"
 			tasks: [{
 				id: "3497D9EDB0FF633A"
@@ -135,8 +133,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 						spell: "arcanus:lunge"
-						title: "book.arcanus.lunge.title"
 						author: "book.arcanus.02.author"
+						title: "book.arcanus.lunge.title"
 					}
 				}
 			}]
@@ -161,8 +159,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
 						spell: "arcanus:dream_warp"
-						title: "book.arcanus.dream_warp.title"
 						author: "book.arcanus.08.author"
+						title: "book.arcanus.dream_warp.title"
 					}
 				}
 			}]
@@ -187,8 +185,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 						spell: "arcanus:magic_missile"
-						title: "book.arcanus.magic_missile.title"
 						author: "book.arcanus.10.author"
+						title: "book.arcanus.magic_missile.title"
 					}
 				}
 			}]
@@ -213,8 +211,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
 						spell: "arcanus:telekinetic_shock"
-						title: "book.arcanus.telekinetic_shock.title"
 						author: "book.arcanus.00.author"
+						title: "book.arcanus.telekinetic_shock.title"
 					}
 				}
 			}]
@@ -239,8 +237,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 						spell: "arcanus:heal"
-						title: "book.arcanus.heal.title"
 						author: "book.arcanus.07.author"
+						title: "book.arcanus.heal.title"
 					}
 				}
 			}]
@@ -265,8 +263,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 						spell: "arcanus:discombobulate"
-						title: "book.arcanus.discombobulate.title"
 						author: "book.arcanus.13.author"
+						title: "book.arcanus.discombobulate.title"
 					}
 				}
 			}]
@@ -291,8 +289,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 						spell: "arcanus:solar_strike"
-						title: "book.arcanus.solar_strike.title"
 						author: "book.arcanus.12.author"
+						title: "book.arcanus.solar_strike.title"
 					}
 				}
 			}]
@@ -317,8 +315,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 						spell: "arcanus:arcane_barrier"
-						title: "book.arcanus.arcane_barrier.title"
 						author: "book.arcanus.10.author"
+						title: "book.arcanus.arcane_barrier.title"
 					}
 				}
 			}]
@@ -333,7 +331,6 @@
 			x: -3.0d
 			y: 0.0d
 			dependencies: ["529460D33FA81792"]
-			hide: true
 			id: "4D6183F3A7E27C3D"
 			tasks: [{
 				id: "14498FC4FED9FDEF"
@@ -357,7 +354,6 @@
 			x: -4.5d
 			y: 0.0d
 			dependencies: ["4D6183F3A7E27C3D"]
-			hide: true
 			id: "0CA31B900C0206DE"
 			tasks: [{
 				id: "55EFC3A3E95ACB6C"
@@ -439,6 +435,8 @@
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["4349C121CF43075A"]
+			hide: true
+			dependency_requirement: "one_started"
 			id: "1FCFBE98F1D10C43"
 			tasks: [{
 				id: "1DC741E8D1DDEEF2"
@@ -456,6 +454,7 @@
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["1FCFBE98F1D10C43"]
+			hide: true
 			id: "24F1343B27FF2A6D"
 			tasks: [{
 				id: "78C6BB4B819F1473"
@@ -467,6 +466,269 @@
 				id: "1E1E3E7DD112CCD0"
 				type: "random"
 				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Shimmering"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["4349C121CF43075A"]
+			id: "44DA0007F8F19808"
+			tasks: [{
+				id: "2ECE991447555D0D"
+				type: "item"
+				item: "spectrum:sparklestone_gem"
+			}]
+			rewards: [{
+				id: "52F3A33BF25896AE"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Life!"
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["44DA0007F8F19808"]
+			hide: true
+			id: "3018C1DFBF618EB2"
+			tasks: [{
+				id: "7BEA385E5DFBA532"
+				type: "item"
+				item: "spectrum:bottle_of_fading"
+			}]
+			rewards: [{
+				id: "29195858E97FF338"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Eat my glob!"
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["3018C1DFBF618EB2"]
+			hide: true
+			id: "4F3A55DD4A33C1BE"
+			tasks: [{
+				id: "6804DF26D31A0DD9"
+				type: "item"
+				item: "spectrum:vegetal"
+			}]
+			rewards: [{
+				id: "2A70435E4A4570C8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Prospering!"
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "2CD8623E65E498AC"
+			tasks: [{
+				id: "328F7C9B74F51BB9"
+				type: "item"
+				item: "spectrum:glistering_melon_seeds"
+			}]
+			rewards: [{
+				id: "4BBFB2C8EACFC050"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Pure Color"
+			x: 9.0d
+			y: -2.0d
+			dependencies: ["4C3FC727E10582D8"]
+			id: "55D1756DF969DBF4"
+			tasks: [{
+				id: "5173FD0151FEB0D8"
+				type: "advancement"
+				advancement: "spectrum:collect_pigment"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "165F479467DEFC6F"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many colors!"
+			x: 9.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["55D1756DF969DBF4"]
+			size: 1.5d
+			id: "7A3BAC941E65BD87"
+			tasks: [{
+				id: "0EED469C98A5B0B9"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "38D59D4DC4DBC866"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Colorful Tree's!"
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "4C3FC727E10582D8"
+			tasks: [{
+				id: "3ED054877B17F9D2"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_sapling"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C428B871A22DC19"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Strange Reeds"
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["24F1343B27FF2A6D"]
+			hide: true
+			id: "56A1A70A23B0C09F"
+			tasks: [{
+				id: "23DB66EA45F1C38B"
+				type: "item"
+				item: "spectrum:quitoxic_reeds"
+			}]
+			rewards: [{
+				id: "2DE3AFB70089AA35"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "POWDER THOSE REEDS"
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["56A1A70A23B0C09F"]
+			hide: true
+			id: "448A4C2FE774F099"
+			tasks: [{
+				id: "30848261D7914DBA"
+				type: "item"
+				item: "spectrum:quitoxic_powder"
+			}]
+			rewards: [{
+				id: "359F7C5815D2C4B2"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			dependencies: ["448A4C2FE774F099"]
+			hide: true
+			id: "415F1C0D622D05F0"
+			tasks: [{
+				id: "6922582CD6C1F529"
+				type: "item"
+				item: {
+					id: "spectrum:void_bundle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "12D69595B5904C37"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "I am Speed"
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["448A4C2FE774F099"]
+			hide: true
+			id: "3BABB0E0559AFE88"
+			tasks: [{
+				id: "3E0D80DFEC53BC9C"
+				type: "advancement"
+				advancement: "spectrum:use_oblivion_pickaxe_with_efficiency"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3FD092777FCC7BE8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Fragile Armor"
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["24F1343B27FF2A6D"]
+			id: "5492BF87CE304F11"
+			tasks: [{
+				id: "3E37C8410CBF1E25"
+				type: "advancement"
+				advancement: "spectrum:get_hit_while_wearing_full_suit_of_gemstone_armor"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["55D1756DF969DBF4"]
+			id: "663AA60FF94CE963"
+			tasks: [{
+				id: "76CAAC7BB4CF3A2B"
+				type: "item"
+				item: "spectrum:brown_pigment"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["24F1343B27FF2A6D"]
+			hide: true
+			id: "0C9CA36D1B7CE210"
+			tasks: [{
+				id: "2B625117151B9D16"
+				type: "item"
+				item: "spectrum:fusion_shrine_basalt"
+			}]
+		}
+		{
+			title: "Blacker than Midnight"
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["0C9CA36D1B7CE210"]
+			hide: true
+			id: "1C33D494AB4CE911"
+			tasks: [{
+				id: "5BC99B2CFFD4D711"
+				type: "item"
+				item: "spectrum:onyx_shard"
+			}]
+		}
+		{
+			title: "It came from the ocean!"
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["4349C121CF43075A"]
+			id: "453B8E8D6E91C1B3"
+			tasks: [{
+				id: "465341BE11F33F4D"
+				type: "item"
+				item: "spectrum:mermaids_gem"
 			}]
 		}
 	]
