@@ -1,0 +1,8 @@
+0.2.0:
+Mods Added:
+Added Another Funiture (Note: Feature overlap with Adorn but it looks a bit nicer)
+Added Expanded Delight
+Added Nature Compass
+Added Bed Benefits
+
+Major Quest Changes:

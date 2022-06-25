@@ -25,7 +25,7 @@
     "onlyOreBlock": false,
     "oreLinewidth": 3,
     "oreOutlineThicker": false,
-    "outlineshown": true
+    "outlineshown": false
   },
   "Plugin": {
     "amountRowes": 5,
