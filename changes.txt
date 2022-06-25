@@ -5,4 +5,5 @@ Added Expanded Delight
 Added Nature Compass
 Added Bed Benefits
 
-Major Quest Changes:
+Removed:
+Panoramic and Watson (Mods I used for testing I forgot to remove)
