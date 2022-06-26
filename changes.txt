@@ -7,3 +7,7 @@ Added Bed Benefits
 
 Removed:
 Panoramic and Watson (Mods I used for testing I forgot to remove)
+
+0.2.1:
+Added Discord Integration
+Updated a few mods for stability

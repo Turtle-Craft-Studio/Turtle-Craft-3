@@ -189,7 +189,7 @@ key_gui.xaero_wm_toggle_minimap_radar:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:0.16887417
+soundCategory_master:0.20198676
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

@@ -3,8 +3,9 @@
 		"favorites": [
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
 			"{type:\"roughlyenoughitems:weather\",weather:\"NOT_SET\"}",
-			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
-			"{data:{Count:1b,id:\"minecraft:sand\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"minecraft:sand\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:purple_concrete_powder\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}"
 		],
 		"hiddenFavorites": [
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
