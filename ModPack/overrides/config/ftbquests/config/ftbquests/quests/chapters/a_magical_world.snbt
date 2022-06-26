@@ -1,0 +1,908 @@
+{
+	id: "1DAB64D039CB3F16"
+	group: ""
+	order_index: 3
+	filename: "a_magical_world"
+	title: "A Magical World"
+	icon: "minecraft:amethyst_shard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hmmmm what does this do"
+			x: 1.5d
+			y: 0.0d
+			dependencies: [
+				"61414DD4E8043B3D"
+				"7D0070DB8C52BBAA"
+				"1427B9C3B42B092C"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F25E868FA801667"
+			tasks: [{
+				id: "0EB68FFFDD1A2D9E"
+				type: "advancement"
+				advancement: "spectrum:place_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0873238D2CBAE8DB"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Purple Magic!"
+			x: 0.0d
+			y: 0.0d
+			id: "61414DD4E8043B3D"
+			tasks: [{
+				id: "7B00526DA4C1B12D"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+			rewards: [{
+				id: "796BE4A982AC7361"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Yellow Magic!"
+			x: 0.0d
+			y: -1.5d
+			id: "7D0070DB8C52BBAA"
+			tasks: [{
+				id: "128576CD556908F2"
+				type: "item"
+				item: "spectrum:citrine_shard"
+			}]
+			rewards: [{
+				id: "486CC48E4371491C"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "You made a wand!"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["61414DD4E8043B3D"]
+			id: "529460D33FA81792"
+			tasks: [{
+				id: "3497D9EDB0FF633A"
+				type: "item"
+				item: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D664118883FB83E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Blue Magic!"
+			x: 0.0d
+			y: 1.5d
+			id: "1427B9C3B42B092C"
+			tasks: [{
+				id: "35C1B46807B84D19"
+				type: "item"
+				item: "spectrum:topaz_shard"
+			}]
+			rewards: [{
+				id: "5D65BA0375E25F6E"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "No more books!"
+			x: -3.0d
+			y: -3.0d
+			id: "35F2D0B039BAF89B"
+			tasks: [{
+				id: "6372758ADE513DD3"
+				type: "item"
+				item: "arcanus:fillable_bookshelf"
+			}]
+			rewards: [{
+				id: "44036CD0320210EA"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "57B84DEFEAD5851F"
+			tasks: [{
+				id: "15D0319A23873017"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
+						spell: "arcanus:lunge"
+						author: "book.arcanus.02.author"
+						title: "book.arcanus.lunge.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AEDF70B8F6F67E3"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "56B8EE4762A3AF48"
+			tasks: [{
+				id: "337AE29826F3E672"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+						spell: "arcanus:dream_warp"
+						author: "book.arcanus.08.author"
+						title: "book.arcanus.dream_warp.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "58AA88DFFC682B97"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "1C76F14E9F87A1F7"
+			tasks: [{
+				id: "2DBE2E17ECD59E0C"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
+						spell: "arcanus:magic_missile"
+						author: "book.arcanus.10.author"
+						title: "book.arcanus.magic_missile.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D479579F12E1268"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "223CCD7D3BAA1114"
+			tasks: [{
+				id: "456852F6C4317361"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
+						spell: "arcanus:telekinetic_shock"
+						author: "book.arcanus.00.author"
+						title: "book.arcanus.telekinetic_shock.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "585E34C9E33F8813"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "378B24110B1BCE54"
+			tasks: [{
+				id: "4C93B5F8A7855032"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
+						spell: "arcanus:heal"
+						author: "book.arcanus.07.author"
+						title: "book.arcanus.heal.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AD5A0F17E1E5C2B"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "35C4E156AFF5018F"
+			tasks: [{
+				id: "28163588EC504BDE"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
+						spell: "arcanus:discombobulate"
+						author: "book.arcanus.13.author"
+						title: "book.arcanus.discombobulate.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FD740FB97D25978"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "5C49B4ADC7F46776"
+			tasks: [{
+				id: "3BFE70CBD5E01A34"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
+						spell: "arcanus:solar_strike"
+						author: "book.arcanus.12.author"
+						title: "book.arcanus.solar_strike.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "69C9A08ABC0303F3"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["35F2D0B039BAF89B"]
+			id: "338F877DDF007812"
+			tasks: [{
+				id: "1C13647C90579C6E"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
+						spell: "arcanus:arcane_barrier"
+						author: "book.arcanus.10.author"
+						title: "book.arcanus.arcane_barrier.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16B0F0195F5F5E9A"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Look at you go!"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Level up your wand dummy"
+			dependencies: ["529460D33FA81792"]
+			id: "4D6183F3A7E27C3D"
+			tasks: [{
+				id: "14498FC4FED9FDEF"
+				type: "item"
+				item: {
+					id: "arcanus:adept_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "628EC803B0ABA9B3"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "You're a wizard Harry!"
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["4D6183F3A7E27C3D"]
+			id: "0CA31B900C0206DE"
+			tasks: [{
+				id: "55EFC3A3E95ACB6C"
+				type: "item"
+				item: {
+					id: "arcanus:master_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "12B77E85EA37B40F"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "GET SMASHED!"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["0F25E868FA801667"]
+			hide: true
+			id: "6A34CEF6E3CE54C2"
+			tasks: [{
+				id: "4C549D8003C402A9"
+				type: "advancement"
+				advancement: "spectrum:collect_gemstone_powder"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5956FB0A756BFC59"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Wow it works!"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0F25E868FA801667"]
+			hide: true
+			id: "4349C121CF43075A"
+			tasks: [{
+				id: "03F2F463A5C32391"
+				type: "advancement"
+				advancement: "spectrum:craft_using_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "109691C5B3A0AFD3"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["4349C121CF43075A"]
+			hide: true
+			optional: true
+			secret: true
+			id: "3BC31BA83C1B4340"
+			tasks: [{
+				id: "7ABEF5E40AC18B65"
+				type: "advancement"
+				advancement: "spectrum:gift_wet_lava_sponge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "09971D16F88135C8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many colors!"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["4349C121CF43075A"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "1FCFBE98F1D10C43"
+			tasks: [{
+				id: "1DC741E8D1DDEEF2"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "77F01AA0F5C79563"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["1FCFBE98F1D10C43"]
+			hide: true
+			id: "24F1343B27FF2A6D"
+			tasks: [{
+				id: "78C6BB4B819F1473"
+				type: "advancement"
+				advancement: "spectrum:build_basic_pedestal_structure"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E1E3E7DD112CCD0"
+				type: "random"
+				table_id: 5165756796652468842L
+			}]
+		}
+		{
+			title: "Shimmering"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["4349C121CF43075A"]
+			id: "44DA0007F8F19808"
+			tasks: [{
+				id: "2ECE991447555D0D"
+				type: "item"
+				item: "spectrum:sparklestone_gem"
+			}]
+			rewards: [{
+				id: "52F3A33BF25896AE"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Life!"
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["44DA0007F8F19808"]
+			hide: true
+			id: "3018C1DFBF618EB2"
+			tasks: [{
+				id: "7BEA385E5DFBA532"
+				type: "item"
+				item: "spectrum:bottle_of_fading"
+			}]
+			rewards: [{
+				id: "29195858E97FF338"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Eat my glob!"
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["3018C1DFBF618EB2"]
+			hide: true
+			id: "4F3A55DD4A33C1BE"
+			tasks: [{
+				id: "6804DF26D31A0DD9"
+				type: "item"
+				item: "spectrum:vegetal"
+			}]
+			rewards: [{
+				id: "2A70435E4A4570C8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Prospering!"
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "2CD8623E65E498AC"
+			tasks: [{
+				id: "328F7C9B74F51BB9"
+				type: "item"
+				item: "spectrum:glistering_melon_seeds"
+			}]
+			rewards: [{
+				id: "4BBFB2C8EACFC050"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Pure Color"
+			x: 9.0d
+			y: -2.0d
+			dependencies: ["4C3FC727E10582D8"]
+			id: "55D1756DF969DBF4"
+			tasks: [{
+				id: "5173FD0151FEB0D8"
+				type: "advancement"
+				advancement: "spectrum:collect_pigment"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "165F479467DEFC6F"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "So many colors!"
+			x: 9.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["55D1756DF969DBF4"]
+			size: 1.5d
+			id: "7A3BAC941E65BD87"
+			tasks: [{
+				id: "0EED469C98A5B0B9"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "38D59D4DC4DBC866"
+				type: "random"
+				table_id: 1847866063425568986L
+			}]
+		}
+		{
+			title: "Colorful Tree's!"
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["4F3A55DD4A33C1BE"]
+			id: "4C3FC727E10582D8"
+			tasks: [{
+				id: "3ED054877B17F9D2"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_sapling"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C428B871A22DC19"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Strange Reeds"
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["24F1343B27FF2A6D"]
+			hide: true
+			id: "56A1A70A23B0C09F"
+			tasks: [{
+				id: "23DB66EA45F1C38B"
+				type: "item"
+				item: "spectrum:quitoxic_reeds"
+			}]
+			rewards: [{
+				id: "2DE3AFB70089AA35"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "POWDER THOSE REEDS"
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["56A1A70A23B0C09F"]
+			hide: true
+			id: "448A4C2FE774F099"
+			tasks: [{
+				id: "30848261D7914DBA"
+				type: "item"
+				item: "spectrum:quitoxic_powder"
+			}]
+			rewards: [{
+				id: "359F7C5815D2C4B2"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			dependencies: ["448A4C2FE774F099"]
+			hide: true
+			id: "415F1C0D622D05F0"
+			tasks: [{
+				id: "6922582CD6C1F529"
+				type: "item"
+				item: {
+					id: "spectrum:void_bundle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "12D69595B5904C37"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "I am Speed"
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["448A4C2FE774F099"]
+			hide: true
+			id: "3BABB0E0559AFE88"
+			tasks: [{
+				id: "3E0D80DFEC53BC9C"
+				type: "advancement"
+				advancement: "spectrum:use_oblivion_pickaxe_with_efficiency"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3FD092777FCC7BE8"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Fragile Armor"
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["24F1343B27FF2A6D"]
+			id: "5492BF87CE304F11"
+			tasks: [{
+				id: "3E37C8410CBF1E25"
+				type: "advancement"
+				advancement: "spectrum:get_hit_while_wearing_full_suit_of_gemstone_armor"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["55D1756DF969DBF4"]
+			id: "663AA60FF94CE963"
+			tasks: [{
+				id: "76CAAC7BB4CF3A2B"
+				type: "item"
+				item: "spectrum:brown_pigment"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["24F1343B27FF2A6D"]
+			hide: true
+			id: "0C9CA36D1B7CE210"
+			tasks: [{
+				id: "2B625117151B9D16"
+				type: "item"
+				item: "spectrum:fusion_shrine_basalt"
+			}]
+		}
+		{
+			title: "Blacker than Midnight"
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["0C9CA36D1B7CE210"]
+			hide: true
+			id: "1C33D494AB4CE911"
+			tasks: [{
+				id: "5BC99B2CFFD4D711"
+				type: "item"
+				item: "spectrum:onyx_shard"
+			}]
+		}
+		{
+			title: "It came from the ocean!"
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["4349C121CF43075A"]
+			id: "453B8E8D6E91C1B3"
+			tasks: [{
+				id: "465341BE11F33F4D"
+				type: "item"
+				item: "spectrum:mermaids_gem"
+			}]
+		}
+		{
+			title: "Souldfire!"
+			x: 1.5d
+			y: -5.0d
+			id: "1326F16077505DDD"
+			tasks: [{
+				id: "7AA435CAD4F27E57"
+				type: "item"
+				item: "conjuring:soulfire_forge"
+			}]
+			rewards: [{
+				id: "7A719B1FF69D946D"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Tinkering with Gems"
+			x: 4.5d
+			y: -3.5d
+			id: "2CF8809CA7C4E2A0"
+			tasks: [{
+				id: "6AC29A44AAF1D830"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
+			rewards: [{
+				id: "393A956424BDA66D"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Not Netherite"
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["1326F16077505DDD"]
+			id: "730D47F320A9C8B7"
+			tasks: [{
+				id: "7A0E586994E9F46A"
+				type: "item"
+				item: "conjuring:soul_alloy"
+			}]
+			rewards: [{
+				id: "4CD0390A8CB5EF27"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "Speedy Gem"
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["2CF8809CA7C4E2A0"]
+			id: "271774FED59FEEB3"
+			tasks: [{
+				id: "68553D1C722C85EC"
+				type: "item"
+				item: "conjuring:haste_gem"
+			}]
+			rewards: [{
+				id: "73355C1F65B9C5AA"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Ignorant Gem"
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["2CF8809CA7C4E2A0"]
+			id: "5A2C2596741CDB21"
+			tasks: [{
+				id: "08C4CB8EF011455C"
+				type: "item"
+				item: "conjuring:ignorance_gem"
+			}]
+			rewards: [{
+				id: "363919243DB5A085"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Abundance of Gems"
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["2CF8809CA7C4E2A0"]
+			id: "4812C84162BC2DBF"
+			tasks: [{
+				id: "0044931032034BA0"
+				type: "item"
+				item: "conjuring:abundance_gem"
+			}]
+			rewards: [{
+				id: "234546C5DA9F0FA1"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Quick Scoping Gems"
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["2CF8809CA7C4E2A0"]
+			id: "4D4F5ACDC11F1512"
+			tasks: [{
+				id: "40E8558DB6A0ACAC"
+				type: "item"
+				item: "conjuring:scope_gem"
+			}]
+			rewards: [{
+				id: "72174BB3C9E13739"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+		{
+			title: "A Pro Gem Tinkerer"
+			x: 7.5d
+			y: -5.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"271774FED59FEEB3"
+				"5A2C2596741CDB21"
+				"4812C84162BC2DBF"
+				"4D4F5ACDC11F1512"
+			]
+			size: 1.5d
+			optional: true
+			secret: true
+			id: "2C64DA3C544A752E"
+			tasks: [{
+				id: "10C46D31A61F8F63"
+				type: "questsadditions:time"
+				icon: "conjuring:gem_tinkerer"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: [
+				"730D47F320A9C8B7"
+				"271774FED59FEEB3"
+				"5A2C2596741CDB21"
+				"4812C84162BC2DBF"
+				"4D4F5ACDC11F1512"
+			]
+			dependency_requirement: "one_completed"
+			id: "12FED934FC5144E5"
+			tasks: [{
+				id: "644DC13ED7949CD4"
+				type: "item"
+				item: "conjuring:gem_socket"
+			}]
+			rewards: [{
+				id: "715E410D46FF6879"
+				type: "random"
+				table_id: 6723938353872642327L
+			}]
+		}
+		{
+			title: "Not a Spawner"
+			x: 1.5d
+			y: -8.0d
+			dependencies: ["730D47F320A9C8B7"]
+			id: "46AE7ADEE843C33A"
+			tasks: [{
+				id: "2E6AF3C0B822305E"
+				type: "item"
+				item: "conjuring:conjurer"
+			}]
+			rewards: [{
+				id: "7D7863A3D1C55443"
+				type: "random"
+				table_id: 7718231572779644500L
+			}]
+		}
+	]
+}

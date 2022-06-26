@@ -32,10 +32,15 @@ modifiers.key.hotbar.6:
 modifiers.key.hotbar.7:
 modifiers.key.hotbar.8:
 modifiers.key.hotbar.9:
+modifiers.Reload Menu | CTRL + ALT + :
+modifiers.Toggle Customization Overlay | CTRL + ALT + :
 modifiers.key.expandedstorage.config:
 modifiers.key.adventurez.activatearmor:
 modifiers.key.adventurez.dragonflydown:
 modifiers.key.adventurez.dragonfirebreath:
+modifiers.key.ae2.wireless_terminal:
+modifiers.key.ae2.portable_item_cell:
+modifiers.key.ae2.portable_fluid_cell:
 modifiers.key.ftbquests.quests:
 modifiers.key.charm.open_atlas:
 modifiers.key.charm.open_crafting_table:
@@ -61,7 +66,7 @@ modifiers.key.push_to_talk:
 modifiers.key.whisper:
 modifiers.key.mute_microphone:key.keyboard.left.control
 modifiers.key.disable_voice_chat:
-modifiers.key.hide_icons:
+modifiers.key.hide_icons:key.keyboard.left.control
 modifiers.key.voice_chat:
 modifiers.key.voice_chat_settings:
 modifiers.key.voice_chat_group:
@@ -105,6 +110,7 @@ modifiers.gui.xaero_open_settings:
 modifiers.gui.xaero_map_zoom_in:
 modifiers.gui.xaero_map_zoom_out:
 modifiers.gui.xaero_quick_confirm:
+modifiers.gui.xaero_wm_toggle_minimap_radar:
 modifiers.iris.keybind.reload:
 modifiers.iris.keybind.toggleShaders:key.keyboard.left.alt
 modifiers.iris.keybind.shaderPackSelection:

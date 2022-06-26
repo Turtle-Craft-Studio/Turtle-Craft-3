@@ -11,7 +11,7 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-showSubtitles:false
+showSubtitles:true
 touchscreen:false
 fullscreen:false
 bobView:true
@@ -20,11 +20,11 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.25
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:22
+renderDistance:24
 simulationDistance:14
 entityDistanceScaling:1.0
 guiScale:3
@@ -108,10 +108,15 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.expandedstorage.config:key.keyboard.g
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
+key_key.expandedstorage.config:key.keyboard.unknown
 key_key.adventurez.activatearmor:key.keyboard.v
 key_key.adventurez.dragonflydown:key.keyboard.left.alt
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
+key_key.ae2.wireless_terminal:key.keyboard.unknown
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.charm.open_atlas:key.keyboard.r
 key_key.charm.open_crafting_table:key.keyboard.v
@@ -123,7 +128,7 @@ key_key.extraalchemy.magnetism_toggle:key.keyboard.n
 key_key.extraalchemy.potion_bag_mode:key.keyboard.unknown
 key_key.extraalchemy.toggle_extra_inv_rings:key.keyboard.y
 key_key.indrev.modular:key.keyboard.k
-key_key.indrev.gamer_axe_toggle:key.keyboard.g
+key_key.indrev.gamer_axe_toggle:key.keyboard.h
 key_key.inmis.open_backpack:key.keyboard.b
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
@@ -139,11 +144,11 @@ key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.keypad.7
 key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.wands.wand_mode:key.keyboard.v
-key_key.wands.wand_action:key.keyboard.h
+key_key.wands.wand_action:key.keyboard.g
 key_key.wands.wand_menu:key.keyboard.y
 key_key.wands.wand_orientation:key.keyboard.x
 key_key.wands.wand_invert:key.keyboard.i
@@ -161,7 +166,7 @@ key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
 key_gui.xaero_toggle_slime:key.keyboard.unknown
 key_gui.xaero_toggle_grid:key.keyboard.unknown
-key_gui.xaero_toggle_waypoints:key.keyboard.unknown
+key_gui.xaero_toggle_waypoints:key.keyboard.keypad.9
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.z
@@ -180,10 +185,11 @@ key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
+key_gui.xaero_wm_toggle_minimap_radar:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:0.3062914
+soundCategory_master:0.16887417
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
