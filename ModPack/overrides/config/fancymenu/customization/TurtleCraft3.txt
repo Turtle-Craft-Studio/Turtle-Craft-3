@@ -51,6 +51,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376310%
+  orientation = bottom-left
+  x = 5
+  action = movebutton
+  y = -35
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = top-left
   x = 15
@@ -97,6 +105,52 @@ customization {
 
 customization {
   orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = f777ee37-8ba8-432e-ad6e-a22fd7b7d3671656372438644
+  y = 327
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5e1abeb1-1238-41f8-bb06-d0214d4415971656372438644
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = a4d336dd-a96d-4017-9b1a-3d92cf78a0a61656372438644
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5134a8bd-53a0-46eb-a484-cf0d60230ea21656372438644
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
   restartbackgroundanimations = true
   buttonaction = joinserver
   label = Turtle Craft %serverplayercount:turtle-craft.my.pebble.host%
@@ -135,14 +189,6 @@ customization {
   scale = 1.0
   refresh = false
   bouncing = true
-}
-
-customization {
-  identifier = %id=376310%
-  orientation = bottom-left
-  x = 5
-  action = movebutton
-  y = -35
 }
 
 customization {

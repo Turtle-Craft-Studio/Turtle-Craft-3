@@ -11,3 +11,20 @@ Panoramic and Watson (Mods I used for testing I forgot to remove)
 0.2.1:
 Added Discord Integration
 Updated a few mods for stability
+
+1.0.0 RC1
+Quest:
+Expanded AE2 quest line
+Expanded Food related quest
+Renamed chapter Storage to Misc
+Added Kibe related quest lines.
+
+Crafting:
+Rebalanced AE2 crafting
+Removed Inrev Mining Rig and Drill Recipes
+Removed Chunk Loader
+
+Fixes:
+Updated Fabric Loader
+Updated mods stability should hopefully be better
+Removed missing items from quest reward table

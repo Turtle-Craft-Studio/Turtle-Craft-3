@@ -1,3 +1,57 @@
+<recipetype:minecraft:crafting>.remove(<item:ae2:semi_dark_monitor>);
+<recipetype:minecraft:crafting>.addJsonRecipe("semi_dark_monitor", 
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ab",
+    "cdb",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:glowstone_dusts"
+    },
+    "b": {
+      "item": "ae2:quartz_glass"
+    },
+    "c": {
+      "tag": "c:plates/iron"
+    },
+    "d": {
+      "tag": "c:redstone_dusts"
+    }
+  },
+  "result": {
+    "item": "ae2:semi_dark_monitor",
+    "count": 3
+  }
+});
+
+<recipetype:minecraft:crafting>.remove(<item:ae2:inscriber>);
+<recipetype:minecraft:crafting>.addJsonRecipe("inscriber", 
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "c a",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/iron"
+    },
+    "b": {
+      "item": "minecraft:sticky_piston"
+    },
+    "c": {
+      "tag": "c:wires/copper"
+    }
+  },
+  "result": {
+    "item": "ae2:inscriber"
+  }
+});
+
 <recipetype:minecraft:crafting>.remove(<item:ae2:energy_acceptor>);
 <recipetype:minecraft:crafting>.addJsonRecipe("cableacceptor_to_energy_acceptor", 
 {

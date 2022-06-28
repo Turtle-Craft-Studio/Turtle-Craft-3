@@ -13,7 +13,7 @@ modifiers.key.chat:
 modifiers.key.playerlist:
 modifiers.key.pickItem:
 modifiers.key.command:
-modifiers.key.socialInteractions:
+modifiers.key.socialInteractions:key.keyboard.left.control
 modifiers.key.screenshot:
 modifiers.key.togglePerspective:
 modifiers.key.smoothCamera:
@@ -32,9 +32,9 @@ modifiers.key.hotbar.6:
 modifiers.key.hotbar.7:
 modifiers.key.hotbar.8:
 modifiers.key.hotbar.9:
+modifiers.key.ellemes_container_lib.config:
 modifiers.Reload Menu | CTRL + ALT + :
 modifiers.Toggle Customization Overlay | CTRL + ALT + :
-modifiers.key.expandedstorage.config:
 modifiers.key.adventurez.activatearmor:
 modifiers.key.adventurez.dragonflydown:
 modifiers.key.adventurez.dragonfirebreath:
@@ -61,6 +61,7 @@ modifiers.key.inventoryhud.togglearm:
 modifiers.key.inventoryhud.toggleall:
 modifiers.key.inventorysorter.sort:
 modifiers.key.justenoughkeys.dropstack:key.keyboard.left.control
+modifiers.key.modmenu.open_menu:
 modifiers.key.veinmining.activate.desc:
 modifiers.key.push_to_talk:
 modifiers.key.whisper:
@@ -77,7 +78,7 @@ modifiers.key.wands.wand_action:
 modifiers.key.wands.wand_menu:key.keyboard.left.control
 modifiers.key.wands.wand_orientation:
 modifiers.key.wands.wand_invert:
-modifiers.key.wands.wand_fill_circle:
+modifiers.key.wands.wand_fill_circle:key.keyboard.left.control
 modifiers.key.wands.wand_undo:
 modifiers.key.wands.palette_menu:
 modifiers.key.wands.wand_palette_mode:

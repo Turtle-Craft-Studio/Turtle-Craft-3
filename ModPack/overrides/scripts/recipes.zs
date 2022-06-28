@@ -1,7 +1,10 @@
 recipes.remove(<item:shoppy:shop_block>);
 recipes.remove(<item:kibe:tank>);
+recipes.remove(<item:kibe:chunk_loader>);
 
 recipes.remove(<item:indrev:hammer>);
+recipes.remove(<item:indrev:mining_rig_mk4>);
+recipes.remove(<item:indrev:drill_bottom>);
 
 <recipetype:indrev:compress>.remove(<item:indrev:iron_plate>);
 <recipetype:indrev:compress>.addJsonRecipe("ironingot_to_ironsheet",
