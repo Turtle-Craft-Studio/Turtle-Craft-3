@@ -62,6 +62,7 @@ modifiers.key.inventoryhud.toggleall:
 modifiers.key.inventorysorter.sort:
 modifiers.key.justenoughkeys.dropstack:key.keyboard.left.control
 modifiers.key.modmenu.open_menu:
+modifiers.presencefootsteps.settings.key:
 modifiers.key.veinmining.activate.desc:
 modifiers.key.push_to_talk:
 modifiers.key.whisper:

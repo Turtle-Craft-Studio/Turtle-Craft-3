@@ -1,3 +1,43 @@
+<recipetype:minecraft:crafting>.remove(<item:ae2:interface>);
+<recipetype:minecraft:crafting>.addJsonRecipe("interface", 
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "c d",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/iron"
+    },
+    "b": {
+      "tag": "c:glass"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "result": {
+    "item": "ae2:interface"
+  }
+});
+<recipetype:minecraft:crafting>.addJsonRecipe("interface_alt", 
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:cable_interface"
+    }
+  ],
+  "result": {
+    "item": "ae2:interface"
+  }
+});
+
 <recipetype:minecraft:crafting>.remove(<item:ae2:semi_dark_monitor>);
 <recipetype:minecraft:crafting>.addJsonRecipe("semi_dark_monitor", 
 {

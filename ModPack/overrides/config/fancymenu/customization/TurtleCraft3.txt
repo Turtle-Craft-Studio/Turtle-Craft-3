@@ -36,8 +36,8 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  orientation = bottom-left
-  x = 0
+  orientation = bottom-right
+  x = -196
   action = movebutton
   y = -10
 }
@@ -197,7 +197,7 @@ customization {
   x = -199
   actionid = 918e9325-04e9-49a6-b3ff-f32c9a7332ab1655499015908
   action = addtext
-  y = -9
+  y = -19
   scale = 1.0
   alignment = left
   value = https://www.patreon.com/AverageTurtle

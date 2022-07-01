@@ -12,7 +12,15 @@ Panoramic and Watson (Mods I used for testing I forgot to remove)
 Added Discord Integration
 Updated a few mods for stability
 
-1.0.0 RC1
+1.0.0
+Mods:
+Added PresenceFootSteps
+Added Musica
+Added Damatic Doors
+Added OmniHopper
+Added Grims Tranportables
+Removed Advdebug
+
 Quest:
 Expanded AE2 quest line
 Expanded Food related quest
@@ -28,3 +36,6 @@ Fixes:
 Updated Fabric Loader
 Updated mods stability should hopefully be better
 Removed missing items from quest reward table
+
+Whats Missing:
+A few questlines still randomly end. We will continue to finish these over the next weekish.
